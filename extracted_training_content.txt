@@ -1,0 +1,443 @@
+=========================================
+SHEET: Ngày 1
+=========================================
+
+Row 1: Col 3: Đào tạo nhân sự Ngày 1
+Row 2: Col 1: STT | Col 2: TÊN VIDEO | Col 3: NỘI DUNG NÓI | Col 6: THỜI LƯỢNG (Phút)
+Row 3: Col 1: 1.0 | Col 2: CHƯƠNG I. GIỚI THIỆU TỔNG QUAN | Col 3: 1.1 Giới thiệu chung | Col 5: Nhà Của Thời Thanh Xuân là mô hình doanh nghiệp xây dựng trách nhiệm xã hội với chủ thể là người Điếc, phát triển bền vững dựa trên hoạt động sản xuất, thương mại và dịch vụ. | Col 6: 1.0
+Row 4: Col 3: 1.2 Giới thiệu về Nhà sáng lập | Col 5: Nhà sáng lập: Võ Thành Luân | Col 6: 2.0
+Row 5: Col 5: 10 năm hoạt động trong ngành du lịch. Trực tiếp xây dựng các đường tour, định hướng hoạt động doanh nghiệp và triển khai, thi hành, thực hiện đường tour.
+Row 6: Col 5: 12 năm tìm hiểu và trải nghiệm các dịch vụ du lịch quốc tế tại nhiều quốc gia.
+Row 7: Col 5: 5 năm sinh sống và trải nghiệm cuộc sống tại nông trại, am hiểu địa hình, địa thế khu vực, các tài nguyên có thể khai thác. | Col 9: 
+Row 8: Col 5: 12 năm hoạt động trong lĩnh vực chiết và kinh doanh tinh dầu với vai trò Giám đốc điều hành.
+Row 9: Col 5: 5 năm hoạt động trong lĩnh vực F&B với vai trò Giám đốc điều hành.
+Row 10: Col 3: 1.3 Lịch sử hình thành | Col 5: Năm 2013, khi Luân du học ở Philippines và có một cơn bão Haiyan đã giết chết trên 10.000 người. Lúc đứng trơ trọi giữa một cái thành phố dẫu chỉ là ảnh hưởng bởi cơn bão thôi, tôi tự hỏi mình đang làm gì ở đây. Và Luân ý thức được việc cần phải cống hiến cho cuộc đời này và quyết tâm đi tìm lại chính mình, đi tìm lại sứ mệnh của cuộc đời mình. Sứ mệnh của Luân chính là giúp đỡ cho những người yếu thế trở lại với đường đua của cuộc đời. | Col 6: 2.0
+Row 11: Col 5: Năm 2017, ở Việt Nam có khoảng 2,6 triệu người Điếc, phần đông chỉ vừa học xong tiểu học nên đến độ tuổi lao động phải chịu nhiều thiệt thòi. Và Luân đã bắt đầu dự án Nhà của Thời Thanh Xuân nâng đỡ cho người yếu thế, hiện tại là người Điếc và truyền cảm hứng cho những người đang khó khăn, chơ vơ ở ngoài kia thấy những người yếu thế như các bạn Điếc đang cố gắng sống và nỗ lực hằng ngày.
+Row 12: Col 3: 1.4 Các giai đoạn của dự án | Col 5: 2018 - 2019: Giai đoạn khởi tạo | Col 6: 2.0
+Row 13: Col 5: Đầu tư cải tạo đất, phục hồi đất rừng đồi trọc
+Row 14: Col 5: Xây dựng cơ sở hạ tầng
+Row 15: Col 5: Xây dựng nền tảng của dự án
+Row 16: Col 5: Tìm hiểu sâu sắc về người Điếc và định hướng của dự án.
+Row 17: Col 5: 2019 - Nay: Triển khai sản xuất và vận hành lò chiết
+Row 18: Col 5: Đầu tư trang - thiết bị, lò chiết khấu tinh dầu
+Row 19: Col 5: Canh tác, trồng nguyên liệu
+Row 20: Col 5: Vận hành sản xuất tại nông trại
+Row 21: Col 5: Nâng cấp cơ sở hạ tầng.
+Row 22: Col 3: 1.5 Sứ mệnh và tầm nhìn | Col 5: Sứ mệnh | Col 6: 2.0
+Row 23: Col 5: Phá vỡ định kiến về việc ”Doanh nghiệp luôn lợi dụng người khuyết tật”. Xây dựng mô hình doanh nghiệp, xây dựng trách nhiệm xã hội với chủ thể là Người Điếc, Phát triển bền vững dựa trên hoạt động sản xuất, thương mại và dịch vụ.
+Row 24: Col 5: Tầm nhìn
+Row 25: Col 5: Đến năm 2027, mở rộng dự án khắp toàn quốc và truyền cảm hứng đến cộng đồng quốc tế.
+Row 26: Col 1: 2.0 | Col 2: CHƯƠNG II. QUY ĐỊNH VÀ VĂN HÓA ỨNG XỬ | Col 3: 1. NGUYÊN TẮC GHI CHÚ | Col 4: 1.1 Vì sao phải ghi chú? | Col 5: Ghi chú là nền tảng của tư duy hệ thống | Col 6: 3.0
+Row 27: Col 5: Giúp ghi nhớ, tổng hợp và cải tiến công việc
+Row 28: Col 5: Thể hiện thái độ làm việc nghiêm túc, tránh phân tâm
+Row 29: Col 5: Chỉ có viết xuống trang giấy, mới ảnh hưởng đến sự ghi nhớ của não bộ, không được đánh máy lên laptop, điện thoại
+Row 30: Col 4: 1.2 Quy định ghi chú bắt buộc | Col 5: Mỗi nhân sự phải có sổ ghi chú cá nhân
+Row 31: Col 5: Ghi chép bằng tay trong quá trình training, họp, nhận việc
+Row 32: Col 5: Không ghi chú bằng điện thoại, không ghi âm
+Row 33: Col 4: 1.3 Nguyên tắc ghi chú hiệu quả | Col 5: Ghi ý chính, không ghi lan man
+Row 34: Col 5: Sau mỗi buổi học: tự tóm tắt lại
+Row 35: Col 5: Định kỳ xem lại và cập nhật
+Row 36: Col 3: 2. ONE VOICE – MỘT TIẾNG NÓI THỐNG NHẤT | Col 4: 2.1 Mục đích của One Voice | Col 5: One Voice được xây dựng nhằm: | Col 6: 5.0
+Row 37: Col 5: Tránh mâu thuẫn nội bộ
+Row 38: Col 5: Đảm bảo thông tin truyền thông nhất quán
+Row 39: Col 5: Nâng cao tính chuyên nghiệp
+Row 40: Col 5: Tối ưu hiệu quả vận hành
+Row 41: Col 4: 2.2 Khái niệm One Voice | Col 5: One Voice là nguyên tắc toàn bộ doanh nghiệp sử dụng chung một tiếng nói thống nhất trong:
+Row 42: Col 5: Giao tiếp nội bộ
+Row 43: Col 5: Giao tiếp với khách hàng
+Row 44: Col 5: Triển khai công việc
+Row 45: Col 5: Doanh nghiệp được xem là một thể thống nhất, không phải tập hợp các cá nhân rời rạc.
+Row 46: Col 4: 2.3 Ứng dụng One Voice trong thực tế | Col 5: Không phát ngôn cá nhân trái với định hướng chung
+Row 47: Col 5: Không truyền đạt thông tin chưa được xác nhận
+Row 48: Col 5: Tuân thủ kịch bản và quy chuẩn giao tiếp
+Row 49: Col 3: 3. MÔ HÌNH OPA | Col 4: 3.1 OPA là gì? | Col 5: OPA (Outcome – Purpose – Action Plan) là mô hình tư duy và triển khai công việc giúp: | Col 6: 5.0
+Row 50: Col 5: Làm việc có mục tiêu rõ ràng
+Row 51: Col 5: Hiểu rõ lý do thực hiện
+Row 52: Col 5: Có kế hoạch hành động cụ thể
+Row 53: Col 4: 3.2 O – Outcome (Kết quả) | Col 5: Là kết quả cuối cùng cần đạt
+Row 54: Col 5: Phải cụ thể, đo lường được
+Row 55: Col 5: Gắn với mục tiêu kinh doanh chung
+Row 56: Col 5: → Outcome trả lời câu hỏi: Chúng ta cần đạt được điều gì?
+Row 57: Col 4: 3.3 P – Purpose (Mục đích) | Col 5: Là lý do tồn tại của công việc
+Row 58: Col 5: Giá trị mang lại cho khách hàng, đội nhóm, doanh nghiệp
+Row 59: Col 5: → Purpose trả lời câu hỏi: Vì sao việc này cần làm?
+Row 60: Col 4: 3.4 A – Action Plan (Kế hoạch hành động) | Col 5: Bao gồm:
+Row 61: Col 5: Các bước thực hiện
+Row 62: Col 5: Thời gian
+Row 63: Col 5: Người phụ trách
+Row 64: Col 5: Nguồn lực
+Row 65: Col 5: Mốc đánh giá
+Row 66: Col 5: → Action Plan trả lời câu hỏi: Làm như thế nào để đạt Outcome?
+Row 67: Col 3: 4. MÔ HÌNH SMART | Col 4: 4.1 SMART là gì? | Col 5: SMART là mô hình thiết lập mục tiêu hiệu quả: | Col 6: 5.0
+Row 68: Col 5: Rõ ràng
+Row 69: Col 5: Đo lường được
+Row 70: Col 5: Khả thi
+Row 71: Col 5: Phù hợp
+Row 72: Col 5: Có thời hạn
+Row 73: Col 4: 4.2 Các yếu tố SMART | Col 5: S – Specific: Cụ thể
+Row 74: Col 5: M – Measurable: Đo lường được
+Row 75: Col 5: A – Attainable: Khả thi, cần nỗ lực (phân biệt achievable để làm rõ cần sự phấn đấu, nỗ lực tăng trưởng)
+Row 76: Col 5: R – Relevant: Phù hợp định hướng chung
+Row 77: Col 5: T – Time-bound: Có thời hạn rõ ràng
+Row 78: Col 3: 5. TIME MANAGEMENT – QUẢN LÝ THỜI GIAN | Col 4: 5.1 Khái niệm | Col 5: Time Management là việc sử dụng thời gian dựa trên mức độ ưu tiên, không phải cảm xúc. | Col 6: 5.0
+Row 79: Col 4: 5.2 Ma trận quản lý thời gian | Col 5: Phân loại công việc theo 4 nhóm:
+Row 80: Col 5: Quan trọng & Khẩn cấp
+Row 81: Col 5: Quan trọng nhưng không khẩn cấp
+Row 82: Col 5: Không quan trọng nhưng khẩn cấp
+Row 83: Col 5: Không quan trọng & không khẩn cấp
+Row 84: Col 5: → Nhân sự cần ưu tiên nhóm (1) và (3), mọi thời gian khác cân đối để xử lý việc nhóm (2), tránh để đến khi việc trở nên khẩn cấp
+Row 85: Col 3: 6. PROACTIVE – TƯ DUY CHỦ ĐỘNG | Col 4: 6.1 Proactive là gì? | Col 5: Proactive là: | Col 6: 5.0
+Row 86: Col 5: Chủ động nhìn thấy việc cần làm
+Row 87: Col 5: Chủ động đề xuất giải pháp
+Row 88: Col 5: Chủ động chịu trách nhiệm đến cùng
+Row 89: Col 5: Giành thế chủ động về phía mình (là người đề xuất, khởi xướng, khai thác thông tin)
+Row 90: Col 4: 6.2 Kỳ vọng từ doanh nghiệp | Col 5: Không chờ giao việc
+Row 91: Col 5: Không đổ lỗi
+Row 92: Col 5: Không làm việc đối phó
+Row 93: Col 3: 7. SOLUTION FOCUS – ĐỊNH HƯỚNG GIẢI PHÁP | Col 4: 7,1 Phân biệt 3 loại tập trung | Col 5: Solution focus - Tập trung vào giải pháp | Col 6: 3.0
+Row 94: Col 5: Drama focus - tập trung vào tình tiết, tiểu tiết, cảm xúc
+Row 95: Col 5: Blaming focus - Tập trung vào đổ lỗi
+Row 96: Col 5: → Doanh nghiệp cần Solution focus, mục tiêu tuyển dụng nhân sự của doanh nghiệp là để giải quyết các vấn đề, không phải tạo thêm vấn đề. Năng lực của một nhân sự được đánh giá bằng số vấn đề nhân sự giải quyết được.
+Row 97: Col 4: 7.2 Solution Focus là gì? | Col 5: Là tư duy: | Col 6: 5.0
+Row 98: Col 5: Tập trung giải quyết vấn đề
+Row 99: Col 5: Không chỉ nêu vấn đề
+Row 100: Col 5: Không đổ lỗi cá nhân hay hoàn cảnh
+Row 101: Col 4: 7.3 Nguyên tắc áp dụng | Col 5: Nhìn rõ vấn đề
+Row 102: Col 5: Đề xuất ít nhất 1 giải pháp
+Row 103: Col 5: Chủ động thực hiện hoặc phối hợp thực hiện
+Row 104: Col 3: 8. IMPROVING EVERYDAY – KHÔNG NGỪNG CẢI THIỆN | Col 4: 8.1 Tư duy cải thiện liên tục | Col 5: Mỗi ngày tốt hơn hôm qua một chút | Col 6: 5.0
+Row 105: Col 5: Không cần hoàn hảo ngay lập tức
+Row 106: Col 5: Quan trọng là duy trì
+Row 107: Col 4: 8.2 Thông điệp cốt lõi | Col 5: "Chỉ cần tốt hơn mình của ngày hôm qua."
+Row 108: Col 1: 3.0 | Col 2: CHƯƠNG III. VĂN HÓA DOANH NGHIỆP | Col 3: 1. MÙI HƯƠNG - GIÁ TRỊ CỐT LÕI | Col 4: 1.1 Mùi hương là bản chất doanh nghiệp | Col 5: Thời Thanh Xuân là doanh nghiệp hoạt động trong lĩnh vực mùi hương, với nền tảng là tinh dầu. Vì vậy: | Col 6: 10.0
+Row 109: Col 5: Mùi thơm không phải trang trí – mùi thơm là bản sắc.
+Row 110: Col 4: 1.2 Quy định ứng xử liên quan đến mùi hương | Col 5: Tất cả đơn hàng (kể cả túi giấy nhỏ) bắt buộc xịt hương theo đúng quy định về mùi hương nhận diện thương hiệu lên tay cầm túi trước khi giao khách
+Row 111: Col 5: Không để cửa hàng ở bất kỳ thời điểm nào rơi vào trạng thái không có mùi hương nhận diện thương hiệu, cụ thể là tinh dầu sả java
+Row 112: Col 4: 1.3 Quy định vệ sinh không gian | Col 5: Khi lau chùi, vệ sinh phải sử dụng bình xịt sả chanh của Thời Thanh Xuân
+Row 113: Col 5: Không sử dụng mùi hương ngoài quy định chung hệ thống
+Row 114: Col 5: → Mùi hương không đúng chuẩn sẽ tạo sự phòng vệ
+Row 115: Col 3: 2. ÂM THANH – VĂN HOÁ TÔN TRỌNG KHÔNG GIAN | Col 4: 2.1 Vai trò của âm thanh trong trải nghiệm | Col 5: Âm thanh là yếu tố tác động trực tiếp đến cảm xúc và hành vi khách hàng, song hành cùng mùi hương và không gian. | Col 6: 10.0
+Row 116: Col 4: 2.2 Quy định âm thanh bắt buộc | Col 5: Tuân thủ đúng mức volume đã quy định
+Row 117: Col 5: Không tự ý điều chỉnh âm lượng theo cảm xúc cá nhân
+Row 118: Col 4: 2.3 Trải nghiệm ngôn ngữ ký hiệu | Col 5: Khi khách đông và ồn aò, nhân sự mời khách làm quen với ngôn ngữ ký hiệu
+Row 119: Col 5: Không gian tĩnh giúp khách học cách lắng nghe và cảm nhận
+Row 120: Col 5: Thể hiện rõ đây là mô hình có nhân sự Khiếm thính / Điếc trực tiếp làm việc
+Row 121: Col 5: → Âm thanh không đúng chuẩn sẽ tạo sự phòng vệ
+Row 122: Col 3: 3. CÂY XANH – Ý THỨC GÌN GIỮ GIÁ TRỊ TỰ NHIÊN | Col 4: 3.1 Cây xanh không phải vật trang trí | Col 5: Cây xanh tại Thời Thanh Xuân là cây cổ thụ, mang giá trị bảo tồn và tinh thần thiên nhiên Lâm Đồng. | Col 6: 5.0
+Row 123: Col 4: 3.2 Ý nghĩa trong nhận diện thương hiệu | Col 5: Logo Thời Thanh Xuân:
+Row 124: Col 5: Khi che bên phải: Mái nhà
+Row 125: Col 5: Khi che bên trái: Mầm cây
+Row 126: Col 5: → Sứ mệnh: Con người và thiên nhiên cùng nương tựa và phát triển, và khi nhiều ngôi nhà nơi những người cùng chung lý tưởng đặt cạnh nhau sẽ tạo nên một rừng cây
+Row 127: Col 4: 3.3 Ứng xử với cây xanh | Col 5: Không tự ý di chuyển, tác động
+Row 128: Col 5: Chủ động chăm sóc, giữ gìn
+Row 129: Col 5: Nhắc nhở đồng đội nếu thấy hành vi chưa phù hợp
+Row 130: Col 5: → Cây xanh không đúng chuẩn sẽ tạo sự phòng vệ
+Row 131: Col 3: 4. KHÔNG GIAN – TRÁCH NHIỆM CỦA TẤT CẢ | Col 4: 4.1 Nguyên tắc quan sát không gian | Col 5: Mỗi ngày đi làm: | Col 6: 5.0
+Row 132: Col 5: Lùi lại một bước
+Row 133: Col 5: Quan sát toàn bộ không gian
+Row 134: Col 5: Bất kỳ chi tiết nào chưa sạch, chưa đẹp, chưa dễ chịu → xử lý ngay
+Row 135: Col 4: 4.2 Không phân biệt vị trí công việc | Col 5: Nhân viên bán hàng chủ động thu dọn ly khách đã dùng
+Row 136: Col 5: Không chờ phân công
+Row 137: Col 5: Không đùn đẩy trách nhiệm
+Row 138: Col 5: Nguyên tắc cốt lõi:
+Row 139: Col 5: Không gian là trách nhiệm của tất cả mọi người.
+Row 140: Col 5: → Không gian không đúng chuẩn sẽ tạo sự phòng vệ
+Row 141: Col 3: 5. VĂN HOÁ BÁN HÀNG & DIỄN GIẢI SỨ MỆNH | Col 4: 5.1 Quy định quan trọng | Col 5: Không sử dụng sứ mệnh để bán hàng | Col 6: 10.0
+Row 142: Col 5: Không lấy hoàn cảnh của nhân sự khiếm thính làm công cụ thuyết phục
+Row 143: Col 4: 5.2 Cách văn hoá được truyền tải đúng | Col 5: Khách tự cảm nhận thông qua:
+Row 144: Col 5: Ngôn ngữ ký hiệu
+Row 145: Col 5: Không gian
+Row 146: Col 5: Sự phục vụ trực tiếp của nhân sự
+Row 147: Col 5: Không nói về sứ mệnh – để sứ mệnh được cảm nhận.
+Row 148: Col 5: Mọi hoạt động, trải nghiệm dịch vụ tại Quán cần làm rõ "Sau tất cả, dự án ra đời vì điều gì?"
+Row 149: Col 5: → Sứ mệnh không diễn giải đúng chuẩn sẽ tạo sự phòng vệ
+Row 150: Col 3: 6. TRẢI NGHIỆM KHÔNG PHÒNG VỆ | Col 4: 6.1 Khái niệm không phòng vệ | Col 5: Khi các yếu tố nền tảng được thực hiện đúng: | Col 6: 10.0
+Row 151: Col 5: Mùi hương
+Row 152: Col 5: Âm thanh
+Row 153: Col 5: Cây xanh
+Row 154: Col 5: Không gian
+Row 155: Col 5: Văn hoá
+Row 156: Col 5: → Khách hàng bước vào trạng thái an toàn, dễ chịu, cởi mở
+Row 157: Col 4: 6.2 Ý nghĩa trong dịch vụ | Col 5: Dịch vụ diễn ra tự nhiên
+Row 158: Col 5: Không cần thuyết phục
+Row 159: Col 5: Giá cả không còn là rào cản chính
+Row 160: Col 5: Triết lý cốt lõi:
+Row 161: Col 5: Tạo ra một không gian đủ tốt để khách không cần phòng vệ, và dịch vụ sẽ tự nhiên được lan tỏa.
+
+
+=========================================
+SHEET: Ngày 2
+=========================================
+
+Row 1: Col 3: KỊCH BẢN QUAY TRAINING NHÂN SỰ
+Row 2: Col 1: STT | Col 2: TÊN VIDEO | Col 3: NỘI DUNG NÓI | Col 10: THỜI LƯỢNG (Phút)
+Row 3: Col 1: 1.0 | Col 2: CHƯƠNG I. TƯ DUY BÁN HÀNG | Col 3: 1.Bán hàng là cung cấp giải pháp | Col 5: Tại Thời Thanh Xuân, bán hàng không được hiểu là việc giới thiệu sản phẩm để thu tiền, mà là cung cấp giải pháp cho một vấn đề cụ thể của khách hàng. | Col 10: 3.0
+Row 4: Col 5: Khi khách hàng quyết định mua một sản phẩm, điều đó xuất phát từ việc họ đang gặp một vấn đề trong đời sống và cần tìm cách xử lý vấn đề đó. Nhân sự bán hàng đóng vai trò là người:
+Row 5: Col 5: Lắng nghe
+Row 6: Col 5: Thấu hiểu
+Row 7: Col 5: Đồng hành
+Row 8: Col 5: Đề xuất giải pháp phù hợp
+Row 9: Col 5: Mục tiêu cuối cùng không phải là số lượng sản phẩm bán ra, mà là giá trị giải pháp mà chúng ta trao cho khách hàng.
+Row 10: Col 1: 2.0 | Col 2: CHƯƠNG 2. NGUYÊN TẮC GIAO TIẾP VỚI KHÁCH HÀNG | Col 3: 2.1 Không chứng minh khách hàng sai | Col 5: Nguyên tắc cốt lõi: | Col 10: 5.0
+Row 11: Col 5: Tuyệt đối không cố gắng chứng minh khách hàng sai.
+Row 12: Col 5: Điều này không đồng nghĩa với việc từ bỏ giá trị doanh nghiệp, mà là lựa chọn cách trao đổi phù hợp để giữ trải nghiệm tích cực.
+Row 13: Col 3: 2.2 Không sử dụng từ “nhưng” | Col 5: Loại bỏ từ “nhưng”
+Row 14: Col 5: Thay thế bằng từ “và”
+Row 15: Col 5: Việc này giúp duy trì cảm xúc tích cực và tránh tạo tâm lý phản vệ
+Row 16: Col 3: 2.3 Ranh giới không thỏa hiệp | Col 5: Tài chính và uy tín doanh nghiệp
+Row 17: Col 5: Văn hóa và sứ mệnh của Thời Thanh Xuân
+Row 18: Col 5: Tôn trọng danh dự và nhân phẩm nhân sự
+Row 19: Col 1: 3.0 | Col 2: CHƯƠNG 3. QUY TRÌNH 7 BƯỚC BÁN HÀNG | Col 3: 1. TẠO SỰ TÍN NHIỆM VỚI KHÁCH HÀNG | Col 4: 1.1 Khách hàng đã có sự tín nhiệm | Col 5: Phần lớn khách hàng khi tìm đến Thời Thanh Xuân đã có sẵn mức độ tín nhiệm nhất định, hình thành từ: | Col 10: 5.0
+Row 20: Col 5: Thương hiệu tồn tại hơn 11 năm tại Đà Lạt
+Row 21: Col 5: Uy tín tích lũy trong thời gian dài
+Row 22: Col 5: Nhân sự cần trân trọng và duy trì sự tín nhiệm này thông qua cách giao tiếp chuẩn mực và nhất quán, thông những quy định, văn hóa ứng xử và văn hóa doanh nghiệp
+Row 23: Col 4: 1.2 Khách hàng chưa có sự tín nhiệm | Col 5: Với những khách hàng chưa nhận diện rõ giá trị thương hiệu, nhân sự cần xây dựng tín nhiệm thông qua:
+Row 24: Col 5: Kịch bản giao tiếp rõ ràng
+Row 25: Col 5: Cách xưng hô chuẩn mực
+Row 26: Col 5: Nguyên tắc xưng hô:
+Row 27: Col 5: Không xưng tên cá nhân đơn lẻ
+Row 28: Col 5: Sử dụng danh xưng gắn với tổ chức: nhà, quán, xưởng
+Row 29: Col 5: Danh xưng doanh nghiệp giúp khách hàng cảm nhận rõ nền tảng và uy tín thương hiệu.
+Row 30: Col 4: 1.3 Tạo dựng uy tín ban đầu | Col 5: Nhân sự cần giới thiệu ngắn gọn, súc tích các thông tin cốt lõi:
+Row 31: Col 5: Thời Thanh Xuân là đơn vị chiết xuất tinh dầu từ Đà Lạt
+Row 32: Col 5: Là không gian ứng dụng ngôn ngữ ký hiệu trong trải nghiệm khách hàng
+Row 33: Col 5: Ngôn từ sử dụng cần dễ hiểu, đúng trọng tâm và không lan man.
+Row 34: Col 4: 1.4 Tạo sự đồng cảm | Col 5: Đồng cảm không chỉ là cảm xúc, mà phải được diễn đạt bằng lời nói và hành động cụ thể.
+Row 35: Col 5: Khi sự đồng cảm được thể hiện rõ ràng, mối liên kết giữa nhân sự và khách hàng sẽ hình thành một cách tự nhiên.
+Row 36: Col 4: 1.5 Không sử dụng từ “nhưng” | Col 5: Loại bỏ từ “nhưng”, ý nghĩa của từ nhưng chính là phủ nhận tất cả thông tin đứng trước đó.
+Ví dụ: Dạ đúng rồi ạ, nhưng ....
+Row 37: Col 5: Thay thế bằng từ “và” để tạo ra sự đồng thuận, và có một kịch bản trả lời phù hợp, ví dụ khi khách nói sản phẩm đắt, ta có thể trả lời như sau:
+"Dạ đúng rồi ạ, và đó là vì 1 tấn lá sả  java mình chỉ chiết được 8 lít tinh dầu thôi"
+Row 38: Col 5: Việc này giúp duy trì cảm xúc tích cực và tránh tạo tâm lý phản vệ
+Row 39: Col 3: 2. KHAI THÁC VẤN ĐỀ VÀ NHU CẦU KHÁCH HÀNG | Col 4: 2.1 Tầm quan trọng của khai thác vấn đề | Col 5: Nếu không hiểu rõ vấn đề của khách hàng, mọi giải pháp đưa ra đều mang tính chủ quan và thiếu hiệu quả. | Col 10: 5.0
+Row 40: Col 4: 2.2 Cách khai thác đúng | Col 5: Chỉ khi tạo được sự tín nhiệm, khách hàng mới sẵn sàng mở lòng để nói về những vấn đề của mình
+Row 41: Col 5: Luôn kết thúc câu nói bằng 1 câu hỏi hoặc 1 lời đề nghị để chủ đề không đứt quãng
+Row 42: Col 5: Đặt những câu hỏi có giá trị, tránh hỏi lan man không mục đích. Mỗi câu nói, câu hỏi, cần làm rõ OPA để có thể dự đoán trước câu trả lời.
+Ví dụ: khi tư vấn về tinh dầu, hãy luôn nhớ rằng sinh hoạt cá nhân mỗi ngày không thể tránh việc sử dụng các sản phẩm có mùi (xà phòng, kem đánh răng, mỹ phẩm, nước lau sàn, nước rửa chén, xịt phòng, nước giặt, nước xả vải ...). Điều đó có nghĩa là, chúng ta luôn có một giải pháp tương đương về ứng dụng của tinh dầu, để khách hàng có lựa chọn mới.
+Hãy đặt những câu hỏi về vấn đề này, thay vì hỏi những câu hỏi lan man như Mình đến Đà Lạt được mấy ngày rồi? Sài Gòn có nóng không chị?...
+Hãy mở rộng tầm quan sát để nhận thấy những tín hiệu. Chẳng hạn như khi thấy khách là một người mẹ đang bế con nhỏ, ta có thể hỏi:
+"Mình có hay sử dụng nước lau sàn trong gia đình không chị ha?" "Loại nào?" "Con mình có hay bò chơi trên sàn không?"
+Những câu hỏi trên, gần như sẽ luôn có cùng một câu trả lời "Có", và đó là khi ta có thể đề nghị
+"Đa phần (hoặc nói chính xác loại khách sử dụng nếu có đủ thông tin) các loại nước lau sàn đều là hóa chất, sẽ không thực sự an toàn nếu con mình liếm phải, chị có muốn thử một giải pháp lau nhà mới an toàn hơn không?"
+Row 43: Col 4: 2.3 Kỹ thuật tạo sự đồng cảm thông qua nỗi đau chung | Col 5: Khi khách hàng hiểu rằng, ta cũng đã trải qua những điều như họ, những điều thầm kín mới dễ dàng được chia sẻ hơn
+Row 44: Col 5: Qua quan sát, chính chúng ta cũng mở lòng để hiểu về khách hàng, để những lời chân thật nhất có thể bước ra:
+"Chị ơi, là người mẹ ai không muốn những điều tốt nhất cho con mình, người ta cứ ra rả về những bài học như Hãy để con được dơ, nhưng đó là dơ giữa thiên nhiên, cây cỏ để tăng sức đề kháng. Chứ một đứa nhỏ làm sao chống chọi được với hóa chất và hương liệu ha chị"
+Row 45: Col 3: 3. CUNG CẤP GIẢI PHÁP PHÙ HỢP | Col 4: 3.1 Nguyên tắc cung cấp giải pháp | Col 5: Không sản phẩm nào là giải pháp cho mọi vấn đề | Col 10: 5.0
+Row 46: Col 5: Chỉ đề xuất khi thực sự phù hợp, không cố gắng nói quá lên về khả năng của sản phẩm
+Row 47: Col 4: 3.2 Tìm đến nửa dưới của tảng băng | Col 5: Tâm lý của một khách hàng đang phòng vệ sẽ như một tảng băng đang bảo vệ những thông tin. Hãy nhớ nếu chỉ hiểu được nửa trên tảng băng, vấn đề sẽ không thể được xử lý triệt để.
+Ví dụ: khi khách cần tìm mùi thơm, hãy tìm hiểu xem không gian sống của khách có thật sự ổn không, có vấn đề nào về mùi, và nguyên nhân gốc rễ là gì. 
+Hãy nhớ, tinh dầu không phải hương liệu, một ngôi nhà mới xây với mùi sơn mới sẽ không thể khử mùi với tinh dầu được.
+Chỉ khi thật sự thấu hiểu, giá trị mới được trao đi, lời nói của chúng ta mới có vị thế trong lòng khách hàng
+Row 48: Col 5: Chỉ khi thật sự thấu hiểu, giá trị mới được trao đi, lời nói của chúng ta mới có vị thế trong lòng khách hàng
+Row 49: Col 3: 4. CHỐT ĐƠN THỬ | Col 4: 4.1 Chốt thử là gì? | Col 5: Chốt thử là hành động kiểm tra mức độ sẵn sàng ra quyết định của khách hàng, trước khi bước vào chốt đơn chính thức. | Col 10: 10.0
+Row 50: Col 5: Mục tiêu không phải để khách mua ngay
+Row 51: Col 5: Mục tiêu là để biết:
+Row 52: Col 5: Khách đã đồng ý với giải pháp hay chưa
+Row 53: Col 5: Khách còn băn khoăn ở vấn đề nào
+Row 54: Col 5: Có nên đi tiếp sang chốt đơn hay quay lại xử lý vấn đề
+Row 55: Col 5: Chốt thử là hỏi để nghe, không phải hỏi để ép.
+Row 56: Col 4: 4.2 Khi nào cần chốt thử? | Col 5: Chỉ chốt thử khi đã đủ 3 điều kiện:
+Row 57: Col 5: Đã tạo được sự tín nhiệm
+Row 58: Col 5: Đã khai thác rõ vấn đề & nhu cầu
+Row 59: Col 5: Đã đề xuất 1 giải pháp cụ thể, phù hợp
+Row 60: Col 5: Không chốt thử khi:
+Row 61: Col 5: Khách còn mơ hồ
+Row 62: Col 5: Chưa đồng ý với giải pháp
+Row 63: Col 5: Nhân sự còn đang nói nhiều hơn nghe
+Row 64: Col 4: 4.3 Dấu hiệu cho thấy có thể chốt thử | Col 5: Khách gật đầu, phản hồi tích cực
+Row 65: Col 5: Khách hỏi sâu hơn về cách dùng / mùi / tác dụng
+Row 66: Col 5: Khách cầm sản phẩm lâu, ngửi lại, hỏi giá
+Row 67: Col 5: Khách so sánh giữa các lựa chọn
+Row 68: Col 5: → Đây là lúc không nên nói thêm, mà cần chốt thử
+Row 69: Col 4: 4.4 Cách chốt thử ĐÚNG | Col 5: Nguyên tắc chốt thử
+Row 70: Col 5: Đặt 1 lời đề nghị mang tính khẳng định, tránh hỏi những câu hỏi có/không
+Row 71: Col 5: Thay vì hỏi "Mình thấy sản phẩm có hợp không?" "Mình thấy mùi có thơm không?" "Mình có muốn mua sản phẩm này không?"
+Row 72: Col 5: Những câu hỏi Có / Không sẽ thể hiện sự nghi hoặc, thiếu tự tin của chính người tư vấn, rằng chúng ta thậm chi còn không chắc giải pháp này có thật sự tốt hay chưa
+Row 73: Col 5: Hãy đề nghị một giải pháp cụ thể hơn, hoặc tốt hơn nữa
+Ví dụ: "Mình dùng luôn 50ml cho rẻ chị nha, nếu chỉ lau nhà chắc 1 năm sau chị em mình mới gặp lại nhau, tính ra rẻ hơn nước lau sàn nhiều"
+Row 74: Col 5: Upsale hay Cross-sale là để tạo thêm giá trị, không phải cố gắng tăng trung bình đơn
+Row 75: Col 4: 4.5 Upsale / Cross-sale | Col 5: Thay vì hỏi những câu hỏi như "Anh chị có muốn mua thêm / trải nghiệm thêm ...."
+Row 76: Col 5: Hãy tiếp nối chủ đề cũ hoặc đưa sang một chủ đề mới khi chắc chắn có mối tương quan. Hãy nhớ một khi khách đã muốn tìm hiểu một giải pháp ứng dụng từ tinh dầu, mọi sản phẩm từ hương liệu đều có thể được thay thế.
+Ví dụ "Mình dùng luôn 50ml cho rẻ chị nha, nếu chỉ lau nhà chắc 1 năm sau chị em mình mới gặp lại nhau, tính ra rẻ hơn nước lau sàn nhiều. Kết hợp thêm những bộ khuếch tán gỗ thông rất xinh này thì mình thay thế luôn sáp thơm phòng trong toilet, tính ra một bộ như thế này có khuếch tán liên tục thì cũng mất 3 tháng mới hết tinh dầu, là chưa tới 7000 cho một ngày, tính ra rẻ hơn sáp thơm phòng mà an toàn hơn rất nhiều"
+Khi sự tín nhiệm đủ nhiều, chúng ta có thể đưa ra những giải pháp ưu việt hơn nữa
+"Nếu nhà mình rộng, thì dùng luôn nửa lít cho cả gia đình"
+Row 77: Col 4: 4.6 Cá nhân hóa những lần tư vấn | Col 5: Khách hàng luôn cảm thấy trân trọng, khi thấy được mình là duy nhất
+Row 78: Col 5: Hãy đưa ra những lời đề nghị chỉ dành riêng cho một cá nhân, biến những ấn phẩm bán hàng vô hồn, thành những giá trị cho từng khách hàng
+"Nếu nhà mình rộng, thì dùng luôn nửa lít cho cả gia đình đi chị, riêng mình Quán gửi tặng thêm mấy bộ khuếch tán, mỗi bộ này do chính chúng em vào bìa rừng thu về và gọt vỏ rất là mất công luôn nên không bao giờ Quán bán lẻ. Mình đem cả Đà Lạt về ngôi nhà mình để lần sau quay lại còn nhớ Quán vẫn ở đây đợi mình chị nha"
+Row 79: Col 4: 4.7 Sai lầm tuyệt đối không được mắc ở bước chốt thử | Col 5: Chốt thử = ép mua, quên đi định nghĩa của việc Bán hàng là cung cấp giải pháp
+Row 80: Col 5: Dùng câu hỏi đóng: “Anh/chị mua không?”
+Row 81: Col 5: Chốt thử khi chưa hiểu rõ vấn đề
+Row 82: Col 5: Nói quá nhiều sau khi hỏi khi khách chưa sẵn sàng lắng nghe
+Row 83: Col 3: 5. CÔ LẬP VẤN ĐỀ VÀ XỬ LÝ TỪ CHỐI | Col 4: 5.1 Phân loại từ chối | Col 5: Có 3 loại từ chối thường gặp
+Tạo sự trì hoãn, ví dụ "Chưa có thời gian" (khi khác)
+Trả giá "Mắc quá em"
+Tạo khoản hở để sàng lọc thông tin "Để chị tìm hiểu thêm" | Col 10: 5.0
+Row 84: Col 4: 5.Cách xử lý | Col 5: Phân loại giúp ta xử lý vấn đề nhanh và chính xác
+Khi khách trì hoãn, ta khẳng định tính cấp thiết thông qua các giá trị kèm theo có thời hạn hoặc sự khan hiếm của sản phẩm
+Khi khách trả giá, ta trao thêm các giá trị để khách hiểu đồng tiền được trao là phù hợp
+Khi khách tạo khoản hở, giành thế chủ động và khai thác các vấn đề khách băn khoăn để mình, với vị thế 12 năm uy tín trong ngành, sẽ là người tốt nhất hỗ trợ cho khách
+Row 85: Col 5: Mọi lý do từ chối, ta nhắc khách về vấn đề cốt lõi, nhắc nhớ nỗi đau để khách quyết định "Sức khỏe gia đình là quan trọng nhất đúng không chị?" "Mùi hôi trong nhà thật sự khó chịu đúng không chị?"
+Row 86: Col 4: 5.2 Cô lập vấn đề | Col 5: Luôn đặt câu hỏi xác nhận để chắc chắn vấn đề khách băn khoăn là duy nhất, tránh xử lý lan man
+Row 87: Col 3: 6. CHỐT ĐƠN & XỬ LÝ VÒNG LẬP TỪ CHỐI | Col 5: Sau khi các vấn đề đã được làm rõ: | Col 10: 5.0
+Row 88: Col 5: Tiến hành chốt đơn
+Row 89: Col 5: Nếu phát sinh từ chối, quay lại bước xử lý từ chối
+Row 90: Col 5: Quy trình này mang tính lặp, nhằm đảm bảo mọi băn khoăn được giải quyết triệt để.
+Row 91: Col 3: 7. CHĂM SÓC KHÁCH HÀNG | Col 5: Bán hàng không kết thúc khi khách thanh toán. | Col 10: 5.0
+Row 92: Col 5: Nhân sự cần:
+Row 93: Col 5: Hướng dẫn sử dụng
+Row 94: Col 5: Cung cấp thông tin hậu mãi
+Row 95: Col 5: Giữ kết nối và sẵn sàng hỗ trợ
+Row 96: Col 5: Mục tiêu cuối cùng:
+Row 97: Col 5: Tạo ra mối quan hệ lâu dài và trải nghiệm bền vững cho khách hàng.
+Row 98: Col 1: 4.0 | Col 2: CHƯƠNG 4. QUY TẮC ỨNG XỬ | Col 3: 1. Danh xưng | Col 5: Nhà | Col 10: 15.0
+Row 99: Col 3: 2. Gọi khách hàng | Col 5: Anh, chị, bạn, mình
+Row 100: Col 3: 3. Tác phong | Col 5: Lễ phép, nhẹ nhàng, cư xử bề dưới (Dạ, vâng ạ, xin gửi, xin được trao đổi,...)
+Row 101: Col 3: 4. Tuân thủ các nguyên tắc | Col 5: Không kì kèo
+Row 102: Col 5: Không đánh giá khách hàng
+Row 103: Col 5: Không được chứng minh khách hàng sai
+Row 104: Col 5: Không nói xấu đối thủ
+Row 105: Col 5: Không so sánh
+Row 106: Col 5: Đảm bảo trải nghiệm khách hàng tốt nhất
+Row 107: Col 1: 6.0 | Col 2: CHƯƠNG 6. TINH DẦU | Col 3: NHÓM | Col 4: Loại tinh dầu | Col 5: Nguyên liệu chiết | Col 6: Công dụng chung | Col 7: Công dụng riêng | Col 8: Mô tả mùi | Col 9: Không gian | Col 10: 15.0
+Row 108: Col 3: 1. Hỗ trợ khử mùi, khử khuẩn | Col 4: Sả chanh | Col 5: 1 tấn lá sả ra được 3 L tinh dầu | Col 7: Đuổi muỗi, khử mùi rất tốt | Col 8: Mùi thanh, dịu nhẹ, dễ chịu | Col 9: oto, phòng ngủ, phòng làm việc, nhà vệ sinh
+Row 109: Col 4: Sả java | Col 5: 1 tấn lá sả ra được 8 L tinh dầu | Col 7: Đuổi muỗi, khử mùi mạnh | Col 8: Mùi nồng và ấm, đậm mùi hơn sả chanh | Col 9: oto, phòng làm việc, nhà vệ sinh, phòng thờ
+Row 110: Col 4: Cam | Col 5: 2 tấn vỏ cam ngọt = 1 L | Col 7: Hỗ trợ tuần hoàn máu, tăng khả năng tập trung và sức sáng tạo | Col 8: Mùi thơm dịu, nhẹ và ngọt | Col 9: oto, phòng làm việc, phòng khách, nhà vệ sinh
+Row 111: Col 4: Quế | Col 7: Khử mùi mạnh, hỗ trợ tuần hoàn máu, tăng cường khả năng tập trung và làm việc trí óc | Col 8: Mùi nồng và ấm đặc trưng của vỏ quế | Col 9: oto, phòng làm việc, phòng khách, nhà vệ sinh, phòng thờ
+Row 112: Col 4: Bạc hà | Col 7: Đuổi gián và chuột rất tốt, giúp tăng cường hô hấp, tăng sức tập trung.
+KHÔNG ĐƯỢC DÙNG CHO PHỤ NỮ MANG THAI VÀ TRẺ EM DƯỚI 3 TUỔI | Col 8: Mùi the, mát và thanh | Col 9: oto, phòng làm việc, phòng khách, phòng bếp
+Row 113: Col 3: 2. Hỗ trợ an thần, giảm căng thẳng, ngủ ngon | Col 4: Oải hương | Col 5: 20 bông oải hương = 1 GIỌT tinh dầu | Col 7: Dưỡng da và tóc rất tốt | Col 8: Hương hoa thơm thư giãn, hơi hắc | Col 9: phòng ngủ, phòng khách
+Row 114: Col 4: Hương thảo | Col 5: 1 tấn = 8 lít | Col 7: Dưỡng da và tóc rất tốt | Col 8: Mùi thảo mộc, thanh mát, dịu nhẹ | Col 9: phòng ngủ, phòng khách
+Row 115: Col 4: Gỗ thông | Col 5: 1 tấn = 800ml | Col 7: Cân bằng cảm xúc, giúp tuần hoàn và hỗ trợ điều trị các vấn đề về hô hấp | Col 8: Hương thơm từ gỗ, trầm và ấm | Col 9: phòng ngủ, phòng thờ, phòng khách
+Row 116: Col 4: Phong lữ | Col 7: Dưỡng da và tóc rất tốt | Col 8: Hương thơm xen lẫn mùi hoa và cỏ, thân lá rất dễ chịu và đặc trưng | Col 9: phòng ngủ, phòng khách
+Row 117: Col 1: 7.0 | Col 2: CHƯƠNG 7. HÌNH THỨC KHUẾCH TÁN | Col 3: Hình thức | Col 5: Mô tả | Col 6: Ưu điểm | Col 7: Nhược điểm | Col 10: 10.0
+Row 118: Col 3: Máy xông hơi nước, Quạt hơi nước | Col 5: Sử dụng điện để khuếch tán phần hơi nước mang hạt lưu hương từ tinh dầu | Col 6: Khuếch tán nhanh, tỏa hương rộng | Col 7: Canh lượng nước, hao điện, phải tắt mở, khởi động máy. Phần lớn khuếch tán ra không khí là hơi nước mang hạt lưu hương, hàm lượng tinh dầu thấp nên sẽ không thể khai thác các đặc tính dược liệu tự nhiên của tinh dầu nguyên chất.
+Row 119: Col 3: Đèn gốm, đèn nến đốt | Col 5: Sử dụng nhiệt để khuếch tán phần hơi nước mang hạt lưu hương từ tinh dầu | Col 6: Hơi nóng phát ra có tính an thần, khi sử dụng kèm các loại tinh dầu có tính an thần sẽ rất phù hợp để tạo thành một liệu pháp cân bằng cảm xúc | Col 7: Chỉ phù hợp không gian nhỏ, phòng có điều hòa hoặc vùng có khí hậu mát mẻ. Các loại thiết bị này thường chỉ chứa được lượng nước ít, yêu cầu châm thêm thường xuyên. Thiết bị tỏa nhiệt đem lại nhiều rủi ro cháy nổ, hỏa hoạn.
+Row 120: Col 3: Bộ khuếch tán | Col 5: Sử dụng các loại gỗ để khuếch tán trực tiếp tinh dầu nguyên chất, không pha nước. Trên thị trường thường dùng các loại que khuếch tán công nghiệp bằng gỗ mây, hút tinh dầu rất nhanh, hạn sử dụng thấp (25-30 ngày). Bộ khuếch tán của Nhà sử dụng gỗ thông, khuếch tán chậm và tỏa hương đều đặn giúp tiết kiệm tinh dầu, hạn sử dụng từ 2-3 năm, và được thay mới miễn phí khi có vấn đề phát sinh. | Col 6: Vì khuếch tán trực tiếp tinh dầu nguyên chất nên đây là hình thức khuếch tán duy nhất giúp khai thác các đặc tính dược liệu tự nhiên của tinh dầu nguyên chất. Trang trí đẹp. Không cần canh chừng, tắt mở thiết bị, không hao điện hay nến đốt. | Col 7: Hao tinh dầu hơn các loại thiết bị pha tinh dầu với nước
+Row 121: Col 1: 8.0 | Col 2: CHƯƠNG 8. XÀ PHÒNG | Col 3: Loại | Col 4: Thành phần | Col 5: Công dụng chung | Col 6: công dụng riêng | Col 7: Mô tả mùi | Col 8: Hạn sử dụng và hướng dẫn bảo quản | Col 9: Hướng dẫn sử dụng | Col 10: 15.0
+Row 122: Col 3: Sả chanh | Col 4: Dầu dừa, sút, tinh dầu sả | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Làm sạch thông thường, mùi thơm đậm đà, thu hút. | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 123: Col 3: Cam | Col 4: Dầu dừa, sút, tinh dầu cam | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Kháng viêm | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 124: Col 3: Quế | Col 4: Dầu dừa, sút, tinh dầu quế | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Đặc trị các vấn đề da liễu như nấm, viêm da cơ địa, ..... | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 125: Col 3: Muối | Col 4: Dầu dừa, sút, tinh dầu bạc hà, muối biển | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Thích hợp cho da dầu, giúp cân bằng da, trị mụn cơ thể | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 126: Col 3: Oải hương | Col 4: Dầu dừa, sút, tinh dầu oải hương | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Dưỡng da tốt nhất, giúp phục hồi hư tổn và hỗ trợ làm mờ các vết thâm | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 127: Col 3: Cà phê | Col 4: Dầu dừa, sút, bột cà phê arabica | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Tẩy tế bào chết mạnh | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 128: Col 3: Trà xanh | Col 4: Dầu dừa, sút, bột là trà xanh tươi sản xuất theo công nghệ sấy lạnh | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Tẩy tế bào chết, bột trà xanh làm mát da, thích hợp cho da nhạy cảm | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 129: Col 3: Socola | Col 4: Dầu dừa, sút, bột socola | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Tẩy tế bào chết và dưỡng phần da non nhạy cảm | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 130: Col 3: Chùm ngây | Col 4: Dầu dừa, sút, bột là chùm ngây tươi sản xuất theo công nghệ sấy lạnh | Col 5: Làm sạch cơ thể. Hàm lượng glycerin tự nhiên trong bánh rất cao kết hợp với dầu dưỡng giúp chăm sóc và phục hồi hư tổn cho da. Chính vì vậy mà khi dùng bánh xà phòng để tắm hay rửa tay, mọi người sẽ không cần dùng thêm bất kỳ loại sản phẩm dưỡng thể nào khác. | Col 6: Đặc trị mụn cơ thể | Col 8: 12 tháng.
+Bảo quản nơi thoáng mát | Col 9: Tạo bọt, tắm và làm sạch cơ thể, rửa sạch với nước. Thử lên vùng da nhỏ như cổ tay trước khi sử dụng lần đầu tiên.
+Row 131: Col 1: 9.0 | Col 2: CHƯƠNG 9. NẾN THƠM | Col 3: Loại | Col 4: Thành phần | Col 5: Công dụng chung | Col 6: công dụng riêng | Col 7: Mô tả mùi | Col 8: Hạn sử dụng và hướng dẫn bảo quản | Col 9: Hướng dẫn sử dụng | Col 10: 10.0
+Row 132: Col 4: Sáp dừa, dầu macca, tinh dầu quế | Col 5: Làm thơm không gian, không tạo khói, sáp nến sau khi chảy không nóng, có thể sử dụng để massage. | Col 8: 18 tháng.
+Bảo quản nơi thoáng mát | Col 9: Nến có thể được đốt liên tục trong 36 giờ. Cách sử dụng đúng dành cho nến thơm tự nhiên
+- Làm thơm không gian: Nến đốt từ 0,5 - 1 giờ
+- Massage/dưỡng thể: Nến đốt 15 phút, dùng tay hoặc bông tẩy trang lấy phần sáp chảy thoa đều lên lòng bàn tay. Thoa đều, kết hợp xoa bóp lên cơ thể.
+Lưu ý: Nên xoa bóp lên các vùng da thô (mu bàn tay, cùi chỏ, đầu gối, gót chân) trước để theo dõi, nếu không có tình trạng dị ứng sẽ tiếp tục sử dụng cho các vùng da mềm và nhạy cảm hơn.
+Row 133: Col 4: Sáp dừa, dầu macca, tinh dầu tùng | Col 5: Làm thơm không gian, không tạo khói, sáp nến sau khi chảy không nóng, có thể sử dụng để massage. | Col 8: 18 tháng.
+Bảo quản nơi thoáng mát
+Row 134: Col 4: Sáp dừa, dầu macca, tinh dầu sả chanh, tinh dầu quế | Col 5: Làm thơm không gian, không tạo khói, sáp nến sau khi chảy không nóng, có thể sử dụng để massage. | Col 8: 18 tháng.
+Bảo quản nơi thoáng mát
+Row 135: Col 4: Sáp dừa, dầu macca, tinh dầu sả chanh, tinh dầu hương thảo | Col 5: Làm thơm không gian, không tạo khói, sáp nến sau khi chảy không nóng, có thể sử dụng để massage. | Col 8: 18 tháng.
+Bảo quản nơi thoáng mát
+Row 136: Col 4: Sáp dừa, dầu macca, tinh dầu sả chanh, tinh dầu oải hương | Col 5: Làm thơm không gian, không tạo khói, sáp nến sau khi chảy không nóng, có thể sử dụng để massage. | Col 8: 18 tháng.
+Bảo quản nơi thoáng mát
+Row 137: Col 4: Sáp dừa, dầu macca, tinh dầu sả java, tinh dầu oải hương | Col 5: Làm thơm không gian, không tạo khói, sáp nến sau khi chảy không nóng, có thể sử dụng để massage. | Col 8: 18 tháng.
+Bảo quản nơi thoáng mát
+Row 138: Col 4: Sáp dừa, dầu macca, tinh dầu sả chanh, tinh dầu hương thảo, tinh dầu oải hương | Col 5: Làm thơm không gian, không tạo khói, sáp nến sau khi chảy không nóng, có thể sử dụng để massage. | Col 8: 18 tháng.
+Bảo quản nơi thoáng mát
+Row 139: Col 1: 10.0 | Col 2: CHƯƠNG 10. XỊT THƠM PHÒNG | Col 3: Loại | Col 4: Thành phần | Col 5: Công dụng chung | Col 6: công dụng riêng | Col 7: Mô tả mùi | Col 8: Hạn sử dụng và hướng dẫn bảo quản | Col 9: Hướng dẫn sử dụng | Col 10: 10.0
+Row 140: Col 3: Xịt thơm phòng tinh dầu - Sả chanh | Col 4: Cồn lên men từ củ khoai mì, Menthol, Camphor, Hydrosol hương thảo, Tinh dầu sả chanh | Col 5: Làm thơm, làm sạch không gian | Col 7: Mùi thanh, dịu nhẹ, dễ chịu | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Xịt vào không gian hoặc bàn ghế, áo quần để làm thơm hoặc lau chùi, vệ sinh
+Row 141: Col 3: Xịt thơm phòng tinh dầu - Cam | Col 4: Cồn lên men từ củ khoai mì, Menthol, Camphor, Hydrosol hương thảo, Tinh dầu cam | Col 5: Làm thơm, làm sạch không gian | Col 7: Mùi thơm dịu, nhẹ và ngọt | Col 8: 1 năm.
+Bảo quản nơi thoáng mát
+Row 142: Col 3: Xịt thơm phòng tinh dầu - Quế | Col 4: Cồn lên men từ củ khoai mì, Menthol, Camphor, Hydrosol hương thảo, Tinh dầu quế | Col 5: Làm thơm, làm sạch không gian | Col 7: Mùi nồng và ấm đặc trưng của vỏ quế | Col 8: 1 năm.
+Bảo quản nơi thoáng mát
+Row 143: Col 3: Xịt thơm phòng tinh dầu - Phong lữ | Col 4: Cồn lên men từ củ khoai mì, Menthol, Camphor, Hydrosol hương thảo, Tinh dầu phong lữ | Col 5: Làm thơm, làm sạch không gian | Col 7: Hương thơm xen lẫn mùi hoa và cỏ, thân lá rất dễ chịu và đặc trưng | Col 8: 1 năm.
+Bảo quản nơi thoáng mát
+Row 144: Col 3: Xịt thơm phòng tinh dầu - Thảo mộc | Col 4: Cồn lên men từ củ khoai mì, Menthol, Camphor, Hydrosol hương thảo, Tinh dầu | Col 5: Làm thơm, làm sạch không gian | Col 7: Kết hợp nhiều loại tinh dầu, mùi thơm thảo mộc dịu dàng | Col 8: 1 năm.
+Bảo quản nơi thoáng mát
+Row 145: Col 1: 11.0 | Col 2: CHƯƠNG 11. NƯỚC HOA | Col 3: Loại | Col 4: Thành phần | Col 5: Công dụng chung | Col 6: công dụng riêng | Col 7: Mô tả mùi | Col 8: Hạn sử dụng và hướng dẫn bảo quản | Col 9: Hướng dẫn sử dụng | Col 10: 15.0
+Row 146: Col 3: Nước hoa (Eau de Toilette) - Đà Lạt Sunrise | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Tabaco Aroma Oil (Thuốc lá), Smoke Aroma Oil (Khói) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 147: Col 3: Nước hoa (Eau de Toilette) - Đà Lạt Sunset | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Smoke Aroma Oil (Khói), Geranium Essential Oil (Phong lữ) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 148: Col 3: Nước hoa (Eau de Toilette) - Đà Lạt Nightlife | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Smoke Aroma Oil (Khói), Whisky Aroma Oil (Rượu Whisky) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 149: Col 3: Nước hoa (Eau de Toilette) - Đà Lạt Lifeline | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Apple Pie Aroma Oil (Bánh táo), Smoke Aroma Oil (Khói), Tabaco Aroma Oil (Thuốc lá) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 150: Col 3: Nước hoa (Eau de Toilette) - Đà Lạt Youth | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Geranium Essential Oil (Phong lữ) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 151: Col 3: Nước hoa (Eau de Parfum) - Đà Lạt Sunrise | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Tabaco Aroma Oil (Thuốc lá), Smoke Aroma Oil (Khói) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 152: Col 3: Nước hoa (Eau de Parfum) - Đà Lạt Sunset | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Smoke Aroma Oil (Khói), Geranium Essential Oil (Phong lữ) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 153: Col 3: Nước hoa (Eau de Parfum) - Đà Lạt Nightlife | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Smoke Aroma Oil (Khói), Whisky Aroma Oil (Rượu Whisky) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 154: Col 3: Nước hoa (Eau de Parfum) - Đà Lạt Lifeline | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Apple Pie Aroma Oil (Bánh táo), Smoke Aroma Oil (Khói), Tabaco Aroma Oil (Thuốc lá) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 155: Col 3: Nước hoa (Eau de Parfum) - Đà Lạt Youth | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Geranium Essential Oil (Phong lữ) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 156: Col 3: Nước hoa (Elixir) - Sunrise | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Tabaco Aroma Oil (Thuốc lá), Smoke Aroma Oil (Khói) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 157: Col 3: Nước hoa (Elixir) - Sunset | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Smoke Aroma Oil (Khói), Geranium Essential Oil (Phong lữ) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 158: Col 3: Nước hoa (Elixir) - Nightlife | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Smoke Aroma Oil (Khói), Whisky Aroma Oil (Rượu Whisky) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 159: Col 3: Nước hoa (Elixir) - Lifeline | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Apple Pie Aroma Oil (Bánh táo), Smoke Aroma Oil (Khói), Tabaco Aroma Oil (Thuốc lá) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 160: Col 3: Nước hoa (Elixir) - Youth | Col 4: Fragrance: Alcohol Denat (Cồn 98 độ), Leather Aroma Oil (Da thuộc), Geranium Essential Oil (Phong lữ) | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 161: Col 3: Nước hoa (Eau de Toilette) - Xuân | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 162: Col 3: Nước hoa  (Eau de Toilette) - Hạ | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 163: Col 3: Nước hoa (Eau de Toilette) - Thu | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 164: Col 3: Nước hoa (Eau de Toilette) - Đông | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 165: Col 3: Nước hoa (Eau de Toilette) - Rồi lại Xuân | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 166: Col 3: Nước hoa (Eau de Parfum) - Xuân | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 167: Col 3: Nước hoa (Eau de Parfum) - Hạ | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 168: Col 3: Nước hoa (Eau de Parfum) - Thu | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 169: Col 3: Nước hoa (Eau de Parfum) - Đông | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 170: Col 3: Nước hoa (Eau de Parfum) - Rồi lại Xuân | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 171: Col 3: Nước hoa (Elixir) - Xuân | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 172: Col 3: Nước hoa (Elixir) - Hạ | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 173: Col 3: Nước hoa (Elixir) - Thu | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 174: Col 3: Nước hoa (Elixir) - Đông | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 175: Col 3: Nước hoa (Elixir) - Rồi lại Xuân | Col 4: Alcohol, Fragrance | Col 5: Giúp tạo mùi hương trên cơ thể | Col 6: Giúp tạo mùi hương trên cơ thể | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Khi dùng lên cơ thể, xịt thử lượng nhỏ lên cổ tay hoặc vùng sau tai để kiểm kích ứng, trước khi dùng lên các vùng da nhạy cảm khác
+Row 176: Col 1: 12.0 | Col 2: CHƯƠNG 12. TINH DẦU BI LĂN | Col 3: Loại | Col 4: Thành phần | Col 5: Công dụng chung | Col 6: công dụng riêng | Col 7: Mô tả mùi | Col 8: Hạn sử dụng và hướng dẫn bảo quản | Col 9: Hướng dẫn sử dụng | Col 10: 10.0
+Row 177: Col 3: Tinh dầu bi lăn - Khuynh diệp | Col 4: Tinh dầu khuynh diệp, tinh thể bạc hà, tinh thể long não | Col 5: Thư giãn | Col 6: Thư giãn | Col 7: Hương thơm dịu nhẹ | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Lăn trực tiếp lên vùng da cần sử dụng
+Row 178: Col 3: Tinh dầu bi lăn - Oải hương | Col 4: Tinh dầu oải hương, tinh thể bạc hà, tinh thể long não | Col 5: Thư giãn | Col 6: Thư giãn | Col 7: Hương thơm dịu nhẹ | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Lăn trực tiếp lên vùng da cần sử dụng
+Row 179: Col 3: Tinh dầu bi lăn - Hương thảo | Col 4: Tinh dầu hương thảo, tinh thể bạc hà, tinh thể long não | Col 5: Thư giãn | Col 6: Thư giãn | Col 7: Hương thơm dịu nhẹ | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Lăn trực tiếp lên vùng da cần sử dụng
+Row 180: Col 3: Tinh dầu bi lăn - Phong lữ | Col 4: Tinh dầu tinh dầu, tinh thể bạc hà, tinh thể long não | Col 5: Thư giãn | Col 6: Thư giãn | Col 7: Hương thơm dịu nhẹ | Col 8: 1 năm.
+Bảo quản nơi thoáng mát | Col 9: Lăn trực tiếp lên vùng da cần sử dụng
+
+
+=========================================
+SHEET: Ngày 3
+=========================================
+
+Row 1: Col 3: KỊCH BẢN QUAY TRAINING NHÂN SỰ
+Row 2: Col 1: STT | Col 2: TÊN VIDEO | Col 3: NỘI DUNG NÓI | Col 6: THỜI LƯỢNG (Phút)
+
+

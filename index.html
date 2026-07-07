@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NCTTX - Trắc Nghiệm Đào Tạo Nhân Sự Ngày 1</title>
+  
+  <!-- Google Fonts Lora (Editorial headings) & Inter (Clean UI body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      /* Theme colors matching "Nhà Của Thời Thanh Xuân" (Warm forest, golden, cream) */
+      --primary: #2D5A27;       /* Forest Green */
+      --primary-rgb: 45, 90, 39;
+      --secondary: #D4A373;     /* Amber Gold */
+      --accent: #CCD5AE;        /* Sage Green */
+      --bg-gradient: radial-gradient(circle at 10% 20%, rgba(90, 142, 70, 0.08) 0%, transparent 45%),
+                    radial-gradient(circle at 90% 80%, rgba(212, 163, 115, 0.08) 0%, transparent 45%),
+                    #FAF6EE;
+      --card-bg: rgba(255, 255, 255, 0.85);
+      --text: #2C3524;
+      --text-muted: #55624C;
+      --border: rgba(45, 90, 39, 0.12);
+      --correct: #44803F;
+      --incorrect: #B23B3B;
+      --shadow: 0 8px 32px 0 rgba(45, 90, 39, 0.06);
+      --card-shadow: 0 12px 40px rgba(0, 0, 0, 0.03);
+      --radius: 16px;
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-theme="dark"] {
+      --primary: #528F47;       /* Light Sage Forest */
+      --primary-rgb: 82, 143, 71;
+      --secondary: #E3B487;     /* Light Amber Gold */
+      --accent: #7D885C;
+      --bg-gradient: radial-gradient(circle at 10% 20%, rgba(82, 143, 71, 0.12) 0%, transparent 50%),
+                    radial-gradient(circle at 90% 80%, rgba(227, 180, 135, 0.12) 0%, transparent 50%),
+                    #151C10;
+      --card-bg: rgba(30, 40, 24, 0.85);
+      --text: #F4EFE6;
+      --text-muted: #A3B099;
+      --border: rgba(82, 143, 71, 0.2);
+      --correct: #5FB358;
+      --incorrect: #E05A5A;
+      --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+      --card-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-gradient);
+      background-attachment: fixed;
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      transition: var(--transition);
+    }
+
+    /* Container setup */
+    .container {
+      width: 100%;
+      max-width: 680px;
+      position: relative;
+    }
+
+    /* Card template with glassmorphism */
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: var(--card-shadow), var(--shadow);
+      width: 100%;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Custom Header / Logo */
+    .header-logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .ncttx-logo {
+      height: 80px;
+      width: auto;
+      max-width: 100%;
+      margin-bottom: 12px;
+      filter: drop-shadow(0 4px 8px rgba(45, 90, 39, 0.15));
+      transition: transform 0.5s ease;
+    }
+
+    .ncttx-logo:hover {
+      transform: scale(1.05) rotate(5deg);
+    }
+
+    h1, h2, h3 {
+      font-family: 'Lora', serif;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 24px;
+      letter-spacing: 0.5px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-top: 6px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 500;
+    }
+
+    /* Utility Forms */
+    .form-group {
+      margin-bottom: 24px;
+      width: 100%;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 14px 18px;
+      border-radius: 10px;
+      border: 1.5px solid var(--border);
+      background: rgba(255, 255, 255, 0.4);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 16px;
+      transition: var(--transition);
+    }
+
+    [data-theme="dark"] input[type="text"] {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 4px rgba(var(--primary-rgb), 0.12);
+      background: var(--card-bg);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 28px;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 600;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+      width: 100%;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #FAF6EE;
+      box-shadow: 0 4px 14px rgba(var(--primary-rgb), 0.2);
+    }
+
+    .btn-primary:hover {
+      background: var(--text);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(var(--primary-rgb), 0.3);
+    }
+
+    .btn-primary:active {
+      transform: translateY(0);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+    }
+
+    .btn-outline:hover {
+      background: rgba(var(--primary-rgb), 0.05);
+      transform: translateY(-2px);
+    }
+
+    /* Themes Toggle & Meta Buttons */
+    .floating-controls {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: flex;
+      gap: 10px;
+      z-index: 100;
+    }
+
+    .icon-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+
+    .icon-btn:hover {
+      background: var(--primary);
+      color: #FAF6EE;
+      transform: scale(1.08);
+    }
+
+    /* Screen Management */
+    .screen {
+      display: none;
+    }
+
+    .screen.active {
+      display: block;
+      animation: fadeIn 0.4s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Welcome / History Section */
+    .history-section {
+      margin-top: 30px;
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+
+    .history-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .history-list {
+      max-height: 180px;
+      overflow-y: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .history-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: rgba(255, 255, 255, 0.2);
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+    }
+
+    [data-theme="dark"] .history-item {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    .history-item:last-child {
+      border-bottom: none;
+    }
+
+    .history-item .name-date {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .history-item .h-name {
+      font-weight: 600;
+    }
+
+    .history-item .h-date {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .history-item .score-badge {
+      font-weight: 700;
+      font-size: 14px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: rgba(var(--primary-rgb), 0.1);
+      color: var(--primary);
+    }
+
+    .no-history {
+      padding: 20px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Quiz Screen Layout */
+    .quiz-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .progress-container {
+      width: 100%;
+      height: 6px;
+      background: rgba(var(--primary-rgb), 0.08);
+      border-radius: 3px;
+      margin-bottom: 30px;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: var(--primary);
+      width: 0%;
+      transition: width 0.4s ease;
+    }
+
+    /* Linear Timer */
+    .timer-container {
+      width: 100%;
+      height: 4px;
+      background: rgba(0, 0, 0, 0.05);
+      margin-bottom: 24px;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    [data-theme="dark"] .timer-container {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .timer-bar {
+      height: 100%;
+      width: 100%;
+      background: var(--correct);
+      border-radius: 2px;
+      transition: width 0.1s linear, background-color 0.3s ease;
+    }
+
+    .timer-pulsing {
+      animation: pulse 1s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.7; }
+      100% { opacity: 1; }
+    }
+
+    .question-card {
+      margin-bottom: 28px;
+    }
+
+    .question-type-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+
+    .badge-culture {
+      background: rgba(212, 163, 115, 0.15);
+      color: #A47B4C;
+    }
+    
+    [data-theme="dark"] .badge-culture {
+      background: rgba(227, 180, 135, 0.2);
+      color: var(--secondary);
+    }
+
+    .badge-general {
+      background: rgba(45, 90, 39, 0.1);
+      color: var(--primary);
+    }
+
+    .question-text {
+      font-size: 19px;
+      font-weight: 500;
+      line-height: 1.4;
+      font-family: 'Lora', serif;
+      margin-bottom: 8px;
+    }
+
+    /* Option Choices buttons list */
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .option-btn {
+      background: rgba(255, 255, 255, 0.4);
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      text-align: left;
+      font-family: inherit;
+      font-size: 15px;
+      color: var(--text);
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      line-height: 1.4;
+      width: 100%;
+    }
+
+    [data-theme="dark"] .option-btn {
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    .option-btn:hover:not(:disabled) {
+      background: var(--card-bg);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(45, 90, 39, 0.04);
+    }
+
+    .option-btn .option-indicator {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 2px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      flex-shrink: 0;
+      transition: var(--transition);
+    }
+
+    .option-btn:hover:not(:disabled) .option-indicator {
+      border-color: var(--primary);
+    }
+
+    /* Option States */
+    .option-btn.selected {
+      background: rgba(var(--primary-rgb), 0.08);
+      border-color: var(--primary);
+      box-shadow: 0 4px 12px rgba(var(--primary-rgb), 0.08);
+    }
+
+    .option-btn.selected .option-indicator {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #FFF;
+    }
+
+    .option-btn.correct {
+      background: rgba(68, 128, 63, 0.15) !important;
+      border-color: var(--correct) !important;
+      color: var(--correct) !important;
+    }
+
+    .option-btn.correct .option-indicator {
+      background: var(--correct) !important;
+      border-color: var(--correct) !important;
+      color: #FFF !important;
+    }
+
+    .option-btn.incorrect {
+      background: rgba(178, 59, 59, 0.12) !important;
+      border-color: var(--incorrect) !important;
+      color: var(--incorrect) !important;
+    }
+
+    .option-btn.incorrect .option-indicator {
+      background: var(--incorrect) !important;
+      border-color: var(--incorrect) !important;
+      color: #FFF !important;
+    }
+
+    /* Result Screen styles */
+    .result-score-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .score-circle {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 8px solid var(--accent);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: var(--shadow);
+    }
+
+    [data-theme="dark"] .score-circle {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .score-value {
+      font-size: 38px;
+      font-weight: 700;
+      color: var(--primary);
+      font-family: 'Inter', sans-serif;
+    }
+
+    .score-max {
+      font-size: 14px;
+      color: var(--text-muted);
+      font-weight: 500;
+      border-top: 1.5px solid var(--border);
+      padding-top: 2px;
+      margin-top: 2px;
+      width: 50px;
+    }
+
+    .result-title {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .result-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      max-width: 460px;
+      margin: 0 auto;
+    }
+
+    /* Review section details */
+    .review-section {
+      margin-top: 35px;
+      border-top: 1.5px solid var(--border);
+      padding-top: 28px;
+      width: 100%;
+    }
+
+    .review-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .review-list {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-height: 350px;
+      overflow-y: auto;
+      padding-right: 8px;
+      margin-bottom: 24px;
+    }
+
+    .review-item {
+      padding: 18px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.3);
+      border: 1px solid var(--border);
+      font-size: 14px;
+    }
+
+    [data-theme="dark"] .review-item {
+      background: rgba(0, 0, 0, 0.15);
+    }
+
+    .review-item.is-correct {
+      border-left: 4px solid var(--correct);
+    }
+
+    .review-item.is-incorrect {
+      border-left: 4px solid var(--incorrect);
+    }
+
+    .review-q-text {
+      font-family: 'Lora', serif;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .review-ans {
+      margin-top: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .review-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+    }
+
+    .review-value {
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      background: rgba(0, 0, 0, 0.03);
+    }
+
+    [data-theme="dark"] .review-value {
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .review-value.ans-correct {
+      color: var(--correct);
+      font-weight: 500;
+    }
+
+    .review-value.ans-user-wrong {
+      color: var(--incorrect);
+      text-decoration: line-through;
+    }
+
+    .result-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    /* Scrollbar customizations */
+    ::-webkit-scrollbar {
+      width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(var(--primary-rgb), 0.15);
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(var(--primary-rgb), 0.3);
+    }
+
+    @media (max-width: 580px) {
+      .card {
+        padding: 24px 16px;
+      }
+      .result-actions {
+        grid-template-columns: 1fr;
+      }
+      .question-text {
+        font-size: 17px;
+      }
+      .option-btn {
+        padding: 12px 14px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="floating-controls">
+    <!-- Dark/Light Theme Button -->
+    <button class="icon-btn" id="theme-btn" title="Đổi giao diện">
+      <svg id="sun-icon" style="display:none;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+      <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+    </button>
+  </div>
+
+  <div class="container">
+    
+    <!-- WELCOME / LOGIN SCREEN -->
+    <div class="card screen active" id="welcome-screen">
+      <div class="header-logo">
+        <img src="logo.png" class="ncttx-logo" alt="Thời Thanh Xuân Logo">
+        <h1>NHÀ CỦA THỜI THANH XUÂN</h1>
+        <div class="subtitle">Trắc nghiệm trainning văn hoá.</div>
+      </div>
+
+      <div class="form-group" style="margin-top: 10px;">
+        <label for="username">Tên nhân sự tham gia</label>
+        <input type="text" id="username" placeholder="Nhập họ và tên của bạn..." autocomplete="off">
+      </div>
+
+      <button class="btn btn-primary" id="start-btn">Bắt Đầu Làm Bài</button>
+    </div>
+
+    <!-- QUIZ IN-PROGRESS SCREEN -->
+    <div class="card screen" id="quiz-screen">
+      <div class="quiz-header">
+        <span id="quiz-user-display">Nhân sự: ...</span>
+        <span id="quiz-counter-display">Câu hỏi 1 / 20</span>
+      </div>
+
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+
+      <!-- Linear timer counting down 35s -->
+      <div class="timer-container">
+        <div class="timer-bar" id="timer-bar"></div>
+      </div>
+
+      <div class="question-card">
+        <span class="question-type-badge badge-culture" id="q-badge">VĂN HÓA & ỨNG XỬ</span>
+        <div class="question-text" id="q-text">Đang tải câu hỏi...</div>
+      </div>
+
+      <div class="options-list" id="options-container">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+    <!-- RESULT / SCORE SCREEN -->
+    <div class="card screen" id="result-screen">
+      <div class="result-score-container">
+        <div class="score-circle">
+          <span class="score-value" id="score-val">0</span>
+          <span class="score-max">/ 25</span>
+        </div>
+        <h2 class="result-title" id="result-verdict">Kết quả bài thi</h2>
+        <p class="result-desc" id="result-msg">Đang xử lý kết quả của bạn...</p>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn btn-outline" id="home-btn">Quay Về Trang Chủ</button>
+        <button class="btn btn-primary" id="retry-btn">Làm Lại Đề Ngày Hôm Nay</button>
+      </div>
+
+      <!-- Detailed Review Panel -->
+      <div class="review-section">
+        <div class="review-header">
+          <h3>Xem Lại Đáp Án Chi Tiết</h3>
+          <span style="font-size: 12px; color: var(--text-muted); font-weight: 500;">Chọn vào từng câu để kiểm tra</span>
+        </div>
+        <div class="review-list" id="review-list">
+          <!-- Dynamic review items -->
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const questionsPool = {
+      // 20 Culture questions (Văn hóa & Quy định ứng xử)
+      culture: [
+        {
+          id: "c1",
+          question: "Nguyên tắc cốt lõi của việc ghi chú tại Nhà Của Thời Thanh Xuân là gì?",
+          options: [
+            "Viết tay vào sổ cá nhân, không đánh máy trên điện thoại hay laptop",
+            "Ghi chép trên điện thoại để dễ tìm kiếm và chỉnh sửa",
+            "Ghi âm lại toàn bộ buổi họp và nghe lại sau",
+            "Đánh máy trực tiếp lên máy tính xách tay để đồng bộ đám mây"
+          ],
+          correct: "Viết tay vào sổ cá nhân, không đánh máy trên điện thoại hay laptop"
+        },
+        {
+          id: "c2",
+          question: "Tại sao việc ghi chú bằng tay được xem là bắt buộc đối với mỗi nhân sự?",
+          options: [
+            "Là nền tảng của tư duy hệ thống, giúp ghi nhớ, tổng hợp và cải tiến công việc",
+            "Để quản lý kiểm tra xem nhân sự có tập trung làm việc hay không",
+            "Để nộp lại cho ban quản lý làm báo cáo đánh giá KPI",
+            "Để làm tư liệu hướng dẫn cho các nhân sự mới tiếp theo"
+          ],
+          correct: "Là nền tảng của tư duy hệ thống, giúp ghi nhớ, tổng hợp và cải tiến công việc"
+        },
+        {
+          id: "c3",
+          question: "Tại Nhà Của Thời Thanh Xuân, tại sao nhân sự được yêu cầu tuyệt đối cấm ghi chép bằng điện thoại, máy tính và chỉ ghi chú bằng tay?",
+          options: [
+            "Chỉ có viết tay xuống giấy mới tác động tốt đến sự ghi nhớ của não bộ",
+            "Thiết bị điện tử dễ gây cháy nổ khi tiếp xúc với tinh dầu",
+            "Để tránh rò rỉ các tài liệu bảo mật của doanh nghiệp ra ngoài",
+            "Sổ tay giấy thể hiện tính kỷ luật và thẩm mỹ cao hơn"
+          ],
+          correct: "Chỉ có viết tay xuống giấy mới tác động tốt đến sự ghi nhớ của não bộ"
+        },
+        {
+          id: "c4",
+          question: "Quy định ghi chú hiệu quả tại Nhà Của Thời Thanh Xuân bao gồm những gì?",
+          options: [
+            "Ghi ý chính, tự tóm tắt sau mỗi buổi học, định kỳ xem lại và cập nhật",
+            "Ghi chép từng từ một của người hướng dẫn, không bỏ sót từ nào",
+            "Chỉ ghi chú những phần liên quan trực tiếp đến ca làm việc của mình",
+            "Ghi chép và chụp ảnh tài liệu để đăng tải lên nhóm thảo luận chung"
+          ],
+          correct: "Ghi ý chính, tự tóm tắt sau mỗi buổi học, định kỳ xem lại và cập nhật"
+        },
+        {
+          id: "c5",
+          question: "Nguyên tắc 'One Voice' (Một tiếng nói thống nhất) được xây dựng nhằm mục đích gì?",
+          options: [
+            "Tránh mâu thuẫn nội bộ, đảm bảo thông tin nhất quán, nâng cao chuyên nghiệp và tối ưu vận hành",
+            "Yêu cầu mọi nhân viên có cùng tông giọng và cách phát âm khi chào khách",
+            "Chỉ cho phép cấp quản lý phát ngôn và đưa ra quyết định thay đổi quy trình",
+            "Bắt buộc toàn bộ nhân sự phải học thuộc lòng các câu nói chào đón khách"
+          ],
+          correct: "Tránh mâu thuẫn nội bộ, đảm bảo thông tin nhất quán, nâng cao chuyên nghiệp và tối ưu vận hành"
+        },
+        {
+          id: "c6",
+          question: "Khái niệm 'One Voice' tại Nhà Của Thời Thanh Xuân quy định điều gì?",
+          options: [
+            "Toàn bộ doanh nghiệp sử dụng chung một tiếng nói thống nhất trong giao tiếp nội bộ, giao tiếp với khách hàng và triển khai công việc",
+            "Mỗi cá nhân tự do phát ngôn và đại diện thương hiệu theo phong cách riêng",
+            "Không được nói chuyện với đồng nghiệp bằng ngôn ngữ nói tại cửa hàng",
+            "Chỉ sử dụng tiếng Việt trong mọi hoạt động giao tiếp và sản xuất"
+          ],
+          correct: "Toàn bộ doanh nghiệp sử dụng chung một tiếng nói thống nhất trong giao tiếp nội bộ, giao tiếp với khách hàng và triển khai công việc"
+        },
+        {
+          id: "c7",
+          question: "Ứng dụng nguyên tắc 'One Voice' trong thực tế yêu cầu nhân sự điều gì?",
+          options: [
+            "Không phát ngôn cá nhân trái định hướng chung, không truyền đạt thông tin chưa được xác nhận, tuân thủ kịch bản giao tiếp",
+            "Chủ động thảo luận các vấn đề chưa thống nhất trực tiếp trước mặt khách hàng",
+            "Tự do chia sẻ các thông tin nội bộ lên mạng xã hội cá nhân",
+            "Thay đổi kịch bản bán hàng theo cảm xúc cá nhân để thu hút khách"
+          ],
+          correct: "Không phát ngôn cá nhân trái định hướng chung, không truyền đạt thông tin chưa được xác nhận, tuân thủ kịch bản giao tiếp"
+        },
+        {
+          id: "c8",
+          question: "Nhận định nào sau đây là đúng về giá trị của mùi hương tại Nhà Của Thời Thanh Xuân?",
+          options: [
+            "Mùi thơm không phải trang trí – mùi thơm là bản sắc",
+            "Mùi thơm chỉ dùng để che đi các mùi ẩm mốc tại cửa hàng",
+            "Chỉ xịt hương thơm khi có các đoàn khách lớn ghé thăm",
+            "Mùi thơm là do khách hàng tự mang đến khi trải nghiệm sản phẩm"
+          ],
+          correct: "Mùi thơm không phải trang trí – mùi thơm là bản sắc"
+        },
+        {
+          id: "c9",
+          question: "Quy định bắt buộc đối với tất cả các đơn hàng khi giao cho khách là gì?",
+          options: [
+            "Bắt buộc xịt hương nhận diện lên tay cầm túi giấy kể cả túi nhỏ trước khi giao khách",
+            "Bắt buộc tặng kèm một mẫu thử tinh dầu sả java",
+            "Bắt buộc ký tên của nhân viên bán hàng lên hóa đơn mua hàng",
+            "Bắt buộc yêu cầu khách hàng quét mã QR đánh giá dịch vụ"
+          ],
+          correct: "Bắt buộc xịt hương nhận diện lên tay cầm túi giấy kể cả túi nhỏ trước khi giao khách"
+        },
+        {
+          id: "c10",
+          question: "Mùi hương nhận diện thương hiệu bắt buộc phải duy trì tại cửa hàng ở mọi thời điểm là gì?",
+          options: [
+            "Tinh dầu sả java",
+            "Tinh dầu sả chanh",
+            "Tinh dầu quế",
+            "Tinh dầu oải hương"
+          ],
+          correct: "Tinh dầu sả java"
+        },
+        {
+          id: "c11",
+          question: "Khi lau chùi và vệ sinh không gian tại Nhà Của Thời Thanh Xuân, nhân sự bắt buộc phải làm gì?",
+          options: [
+            "Sử dụng bình xịt sả chanh của Thời Thanh Xuân",
+            "Sử dụng các loại nước tẩy rửa hóa học thông thường để làm sạch nhanh",
+            "Sử dụng nước lã bình thường để lau dọn tránh gây mùi",
+            "Sử dụng bất kỳ loại tinh dầu nào có sẵn tại cửa hàng"
+          ],
+          correct: "Sử dụng bình xịt sả chanh của Thời Thanh Xuân"
+        },
+        {
+          id: "c12",
+          question: "Nhà Của Thời Thanh Xuân nghiêm cấm hành vi nào liên quan đến mùi hương?",
+          options: [
+            "Sử dụng mùi hương ngoài quy định chung của hệ thống",
+            "Xịt tinh dầu trực tiếp lên các sản phẩm xà phòng",
+            "Đốt nến thơm tại khu vực đón tiếp khách hàng",
+            "Sử dụng tinh dầu sả java để lau chùi bàn ghế"
+          ],
+          correct: "Sử dụng mùi hương ngoài quy định chung của hệ thống"
+        },
+        {
+          id: "c13",
+          question: "Vai trò của âm thanh tại Nhà Của Thời Thanh Xuân được định nghĩa như thế nào?",
+          options: [
+            "Tác động trực tiếp đến cảm xúc và hành vi khách hàng, song hành cùng mùi hương và không gian",
+            "Chỉ để làm giảm sự im lặng khi không có khách nói chuyện",
+            "Không quan trọng bằng mùi hương và thiết kế của cửa hàng",
+            "Để nhân viên giải trí trong lúc thực hiện các công việc sản xuất"
+          ],
+          correct: "Tác động trực tiếp đến cảm xúc và hành vi khách hàng, song hành cùng mùi hương và không gian"
+        },
+        {
+          id: "c14",
+          question: "Quy định âm thanh bắt buộc đối với nhân sự tại Nhà là gì?",
+          options: [
+            "Tuân thủ đúng mức volume quy định, không tự ý điều chỉnh âm lượng theo cảm xúc cá nhân",
+            "Tự ý bật các bài hát mình thích với âm lượng lớn để tạo không khí",
+            "Tắt nhạc hoàn toàn khi quán đông khách để dễ nghe tiếng giao tiếp",
+            "Chỉ bật nhạc thiền và nhạc không lời ở âm lượng tối đa"
+          ],
+          correct: "Tuân thủ đúng mức volume quy định, không tự ý điều chỉnh âm lượng theo cảm xúc cá nhân"
+        },
+        {
+          id: "c15",
+          question: "Khi quán đông và ồn ào, hành vi ứng xử nào sau đây thể hiện văn hóa tôn trọng không gian?",
+          options: [
+            "Mời khách làm quen với ngôn ngữ ký hiệu để lắng nghe và cảm nhận",
+            "Bật nhạc lớn hơn với âm lượng tối đa để át đi tiếng ồn",
+            "Sử dụng loa để thông báo quy định giữ trật tự cho khách",
+            "Tránh giao tiếp và di chuyển nhanh để hoàn thành ca làm việc"
+          ],
+          correct: "Mời khách làm quen với ngôn ngữ ký hiệu để lắng nghe và cảm nhận"
+        },
+        {
+          id: "c16",
+          question: "Nhận định nào sau đây đúng về cây xanh tại Nhà Của Thời Thanh Xuân?",
+          options: [
+            "Là cây cổ thụ mang giá trị bảo tồn và tinh thần thiên nhiên Lâm Đồng, không phải vật trang trí",
+            "Là cây kiểng thông thường được mua để làm đẹp không gian check-in",
+            "Do nhân viên tự ý trồng và chăm sóc theo sở thích cá nhân",
+            "Chỉ được trưng bày ở hiên nhà, không đặt trong không gian quán"
+          ],
+          correct: "Là cây cổ thụ mang giá trị bảo tồn và tinh thần thiên nhiên Lâm Đồng, không phải vật trang trí"
+        },
+        {
+          id: "c17",
+          question: "Ứng xử đúng mực đối với cây xanh tại Nhà Của Thời Thanh Xuân bao gồm những hành vi nào?",
+          options: [
+            "Không tự ý di chuyển, tác động; chủ động chăm sóc, giữ gìn; nhắc nhở đồng đội nếu thấy hành vi chưa phù hợp",
+            "Tự ý thay đổi vị trí của các chậu cây theo thẩm mỹ cá nhân",
+            "Cắt tỉa cành cây theo ý mình để tạo dáng độc lạ hơn",
+            "Chỉ chăm sóc cây khi quản lý nhắc nhở trực tiếp"
+          ],
+          correct: "Không tự ý di chuyển, tác động; chủ động chăm sóc, giữ gìn; nhắc nhở đồng đội nếu thấy hành vi chưa phù hợp"
+        },
+        {
+          id: "c18",
+          question: "Nguyên tắc quan sát không gian mỗi ngày đi làm của nhân sự là gì?",
+          options: [
+            "Lùi lại một bước, quan sát toàn bộ không gian; thấy bất kỳ chi tiết nào chưa sạch, chưa đẹp, chưa dễ chịu thì xử lý ngay",
+            "Chỉ quan sát khu vực làm việc được phân công trực tiếp của mình",
+            "Đợi đến cuối ca làm việc mới đi kiểm tra và dọn dẹp một lần",
+            "Báo cáo cho người dọn vệ sinh khi phát hiện khu vực chưa sạch đẹp"
+          ],
+          correct: "Lùi lại một bước, quan sát toàn bộ không gian; thấy bất kỳ chi tiết nào chưa sạch, chưa đẹp, chưa dễ chịu thì xử lý ngay"
+        },
+        {
+          id: "c19",
+          question: "Quy định ứng xử về không gian đối với nhân viên bán hàng là gì?",
+          options: [
+            "Chủ động thu dọn ly khách đã dùng, không chờ phân công, không đùn đẩy trách nhiệm",
+            "Chỉ dọn dẹp bàn ghế khi được quản lý yêu cầu",
+            "Chờ nhân viên phục vụ bàn đến dọn dẹp, không làm thay việc của người khác",
+            "Chỉ dọn dẹp khi khách hàng đã ra về hoàn toàn khỏi quán"
+          ],
+          correct: "Chủ động thu dọn ly khách đã dùng, không chờ phân công, không đùn đẩy trách nhiệm"
+        },
+        {
+          id: "c20",
+          question: "Quy định quan trọng nhất trong văn hóa bán hàng và diễn giải sứ mệnh tại Nhà là gì?",
+          options: [
+            "Không sử dụng sứ mệnh hay hoàn cảnh của người Điếc làm công cụ thuyết phục bán hàng",
+            "Luôn chủ động chia sẻ sự khó khăn của các bạn Điếc để khách mua ủng hộ nhiều hơn",
+            "Chỉ tập trung bán hàng, tuyệt đối cấm giải thích về sứ mệnh xã hội của quán",
+            "Sử dụng câu chuyện của người sáng lập để thương lượng giá cả với khách"
+          ],
+          correct: "Không sử dụng sứ mệnh hay hoàn cảnh của người Điếc làm công cụ thuyết phục bán hàng"
+        }
+      ],
+
+      // 16 General questions (Overview, history, founder, task models)
+      general: [
+        {
+          id: "g1",
+          question: "Mô hình doanh nghiệp của Nhà Của Thời Thanh Xuân được định nghĩa như thế nào?",
+          options: [
+            "Là mô hình doanh nghiệp xây dựng trách nhiệm xã hội với chủ thể là người Điếc, phát triển bền vững dựa trên hoạt động sản xuất, thương mại và dịch vụ",
+            "Là mô hình hợp tác xã nông nghiệp sản xuất tinh dầu organic phi lợi nhuận",
+            "Là trung tâm bảo trợ xã hội và đào tạo nghề miễn phí cho người khuyết tật",
+            "Là chuỗi quán cà phê và quà lưu niệm thuộc tập đoàn du lịch quốc tế"
+          ],
+          correct: "Là mô hình doanh nghiệp xây dựng trách nhiệm xã hội với chủ thể là người Điếc, phát triển bền vững dựa trên hoạt động sản xuất, thương mại và dịch vụ"
+        },
+        {
+          id: "g2",
+          question: "Năng lực và trải nghiệm của Nhà sáng lập Võ Thành Luân được mô tả như thế nào trong tài liệu?",
+          options: [
+            "10 năm hoạt động ngành du lịch, 12 năm trải nghiệm du lịch quốc tế, 12 năm kinh doanh tinh dầu, 5 năm ở nông trại, 5 năm mảng F&B",
+            "20 năm hoạt động ngành du lịch, 5 năm kinh doanh tinh dầu, không có kinh nghiệm mảng F&B",
+            "10 năm làm việc tại nước ngoài, 5 năm nghiên cứu tinh dầu thảo dược tại Lâm Đồng",
+            "15 năm hoạt động xã hội bảo trợ người khuyết tật, 10 năm điều hành chuỗi cà phê"
+          ],
+          correct: "10 năm hoạt động ngành du lịch, 12 năm trải nghiệm du lịch quốc tế, 12 năm kinh doanh tinh dầu, 5 năm ở nông trại, 5 năm mảng F&B"
+        },
+        {
+          id: "g3",
+          question: "Sự kiện lịch sử nào vào năm 2013 đã thúc đẩy nhà sáng lập Võ Thành Luân đi tìm lại sứ mệnh cuộc đời mình?",
+          options: [
+            "Cơn bão Haiyan tại Philippines khiến hơn 10.000 người chết",
+            "Trận động đất sóng thần lịch sử tại Tohoku, Nhật Bản",
+            "Trận lũ quét lịch sử tại miền Trung Việt Nam",
+            "Sự kiện thành lập tổ chức bảo trợ người khuyết tật thế giới"
+          ],
+          correct: "Cơn bão Haiyan tại Philippines khiến hơn 10.000 người chết"
+        },
+        {
+          id: "g4",
+          question: "Sứ mệnh cuộc đời của nhà sáng lập Võ Thành Luân khi bắt đầu dự án là gì?",
+          options: [
+            "Giúp đỡ cho những người yếu thế trở lại với đường đua của cuộc đời",
+            "Tạo ra một thương hiệu tinh dầu có giá trị thương mại lớn nhất Việt Nam",
+            "Xây dựng các con đường tour du lịch sinh thái lớn tại Lâm Đồng",
+            "Thành lập trung tâm đào tạo ngôn ngữ ký hiệu lớn nhất Đông Nam Á"
+          ],
+          correct: "Giúp đỡ cho những người yếu thế trở lại với đường đua của cuộc đời"
+        },
+        {
+          id: "g5",
+          question: "Tại sao dự án Nhà Của Thời Thanh Xuân chọn người Điếc làm chủ thể nâng đỡ chính từ năm 2017?",
+          options: [
+            "Việt Nam có khoảng 2,6 triệu người Điếc, phần đông chỉ xong tiểu học và chịu nhiều thiệt thòi khi tìm việc làm",
+            "Người Điếc có khả năng cảm nhận mùi hương tốt hơn người bình thường",
+            "Để dễ dàng xin các quỹ hỗ trợ phi chính phủ từ nước ngoài",
+            "Vì người Điếc học làm xà phòng và tinh dầu nhanh hơn các đối tượng khác"
+          ],
+          correct: "Việt Nam có khoảng 2,6 triệu người Điếc, phần đông chỉ xong tiểu học và chịu nhiều thiệt thòi khi tìm việc làm"
+        },
+        {
+          id: "g6",
+          question: "Mục tiêu và hoạt động chính trong Giai đoạn khởi tạo (2018 - 2019) của dự án là gì?",
+          options: [
+            "Đầu tư cải tạo đất, phục hồi đất rừng đồi trọc, xây hạ tầng, xây nền tảng dự án, tìm hiểu sâu sắc về người Điếc",
+            "Triển khai sản xuất hàng loạt xà phòng và vận hành lò chiết xuất",
+            "Mở rộng chuỗi quán cà phê sang các tỉnh thành lân cận Lâm Đồng",
+            "Tổ chức các lớp dạy ngôn ngữ ký hiệu miễn phí cho cộng đồng"
+          ],
+          correct: "Đầu tư cải tạo đất, phục hồi đất rừng đồi trọc, xây hạ tầng, xây nền tảng dự án, tìm hiểu sâu sắc về người Điếc"
+        },
+        {
+          id: "g7",
+          question: "Hoạt động chính của dự án từ năm 2019 đến nay là gì?",
+          options: [
+            "Triển khai sản xuất và vận hành lò chiết",
+            "Tập trung cải tạo đất rừng đồi trọc và xây dựng hạ tầng cơ bản",
+            "Chuyển giao hoàn toàn dự án cho người Điếc tự quản lý",
+            "Mở rộng dự án ra thị trường du lịch quốc tế"
+          ],
+          correct: "Triển khai sản xuất và vận hành lò chiết"
+        },
+        {
+          id: "g8",
+          question: "Sứ mệnh cốt lõi của dự án Nhà Của Thời Thanh Xuân được nêu trong tài liệu training là gì?",
+          options: [
+            "Phá vỡ định kiến 'Doanh nghiệp luôn lợi dụng người khuyết tật' và xây dựng mô hình trách nhiệm xã hội với chủ thể là người Điếc",
+            "Xây dựng chuỗi cửa hàng cà phê và F&B lớn nhất tỉnh Lâm Đồng",
+            "Triển khai xuất khẩu tinh dầu sả java sang thị trường quốc tế để thu lợi nhuận",
+            "Tài trợ học bổng và cấp chứng chỉ nghề quốc tế cho người khuyết tật"
+          ],
+          correct: "Phá vỡ định kiến 'Doanh nghiệp luôn lợi dụng người khuyết tật' và xây dựng mô hình trách nhiệm xã hội với chủ thể là người Điếc"
+        },
+        {
+          id: "g9",
+          question: "Tầm nhìn chiến lược của dự án Nhà Của Thời Thanh Xuân đến năm 2027 là gì?",
+          options: [
+            "Mở rộng dự án khắp toàn quốc và truyền cảm hứng đến cộng đồng quốc tế",
+            "Trở thành đơn vị phân phối xà phòng thảo dược số một Đông Nam Á",
+            "Thành lập trường học dạy ngôn ngữ ký hiệu chính quy đầu tiên",
+            "Chuyển đổi hoàn toàn sang mô hình doanh nghiệp thương mại điện tử"
+          ],
+          correct: "Mở rộng dự án khắp toàn quốc và truyền cảm hứng đến cộng đồng quốc tế"
+        },
+        {
+          id: "g10",
+          question: "Mô hình tư duy và triển khai công việc OPA viết tắt của những từ nào?",
+          options: [
+            "Outcome – Purpose – Action Plan",
+            "Objective – Process – Analysis",
+            "Outcome – Process – Action Plan",
+            "Opportunity – Purpose – Activity"
+          ],
+          correct: "Outcome – Purpose – Action Plan"
+        },
+        {
+          id: "g11",
+          question: "Trong mô hình tư duy OPA, Outcome (Kết quả) trả lời cho câu hỏi nào?",
+          options: [
+            "Chúng ta cần đạt được điều gì?",
+            "Vì sao việc này cần làm?",
+            "Làm như thế nào để đạt được kết quả?",
+            "Ai là người chịu trách nhiệm thực hiện?"
+          ],
+          correct: "Chúng ta cần đạt được điều gì?"
+        },
+        {
+          id: "g12",
+          question: "Trong mô hình tư duy OPA, Purpose (Mục đích) trả lời cho câu hỏi nào?",
+          options: [
+            "Vì sao việc này cần làm?",
+            "Chúng ta cần đạt được điều gì?",
+            "Làm như thế nào để đạt được kết quả?",
+            "Thời hạn hoàn thành công việc là bao lâu?"
+          ],
+          correct: "Vì sao việc này cần làm?"
+        },
+        {
+          id: "g13",
+          question: "Trong mô hình tư duy OPA, Action Plan (Kế hoạch hành động) trả lời cho câu hỏi nào?",
+          options: [
+            "Làm như thế nào để đạt Outcome?",
+            "Chúng ta cần đạt được điều gì?",
+            "Vì sao việc này cần làm?",
+            "Ai là người chịu trách nhiệm chính?"
+          ],
+          correct: "Làm như thế nào để đạt Outcome?"
+        },
+        {
+          id: "g14",
+          question: "Tại sao trong mô hình SMART của Nhà, chữ 'A' lại đại diện cho từ 'Attainable' thay vì 'Achievable'?",
+          options: [
+            "Để nhấn mạnh mục tiêu khả thi nhưng bắt buộc cần sự nỗ lực phấn đấu để tăng trưởng",
+            "Vì từ Attainable dễ viết và dễ dịch nghĩa hơn đối với người mới",
+            "Để khẳng định mục tiêu đó cực kỳ dễ dàng đạt được mà không cần thay đổi",
+            "Vì từ Achievable mang ý nghĩa không phù hợp trong triết lý dịch vụ của quán"
+          ],
+          correct: "Để nhấn mạnh mục tiêu khả thi nhưng bắt buộc cần sự nỗ lực phấn đấu để tăng trưởng"
+        },
+        {
+          id: "g15",
+          question: "Theo định nghĩa của Nhà, Quản lý thời gian (Time Management) là gì?",
+          options: [
+            "Sử dụng thời gian dựa trên mức độ ưu tiên, không phải cảm xúc",
+            "Ghi chép chính xác số giờ làm việc trong ngày để tính lương",
+            "Phân chia thời gian làm việc bằng nhau cho mọi nhiệm vụ",
+            "Làm việc liên tục không nghỉ ngơi để hoàn thành công việc nhanh nhất"
+          ],
+          correct: "Sử dụng thời gian dựa trên mức độ ưu tiên, không phải cảm xúc"
+        },
+        {
+          id: "g16",
+          question: "Theo ma trận quản lý thời gian trong tài liệu, nhân sự cần phân bổ thời gian thực hiện các nhóm công việc như thế nào?",
+          options: [
+            "Ưu tiên nhóm (1) và (3), mọi thời gian khác cân đối để xử lý việc nhóm (2), tránh để đến khi việc trở nên khẩn cấp",
+            "Chỉ tập trung làm các việc khẩn cấp nhóm (1), bỏ qua tất cả các nhóm khác",
+            "Phân chia thời gian bằng nhau cho cả 4 nhóm công việc",
+            "Chỉ làm các việc không quan trọng nhưng khẩn cấp trước"
+          ],
+          correct: "Ưu tiên nhóm (1) và (3), mọi thời gian khác cân đối để xử lý việc nhóm (2), tránh để đến khi việc trở nên khẩn cấp"
+        }
+      ]
+    };
+
+    const questionSets = [
+      {
+        culture: ["c1", "c2", "c3", "c5", "c6", "c8", "c9", "c10", "c11", "c13", "c14", "c15", "c16", "c18", "c20"],
+        general: ["g1", "g2", "g3", "g5", "g7", "g8", "g9", "g10", "g11", "g14"]
+      },
+      {
+        culture: ["c2", "c4", "c5", "c7", "c8", "c9", "c10", "c12", "c13", "c15", "c16", "c17", "c18", "c19", "c20"],
+        general: ["g1", "g3", "g4", "g6", "g7", "g8", "g9", "g12", "g13", "g15"]
+      },
+      {
+        culture: ["c1", "c3", "c4", "c6", "c7", "c9", "c10", "c11", "c12", "c14", "c15", "c17", "c18", "c19", "c20"],
+        general: ["g2", "g4", "g5", "g6", "g7", "g10", "g11", "g12", "g13", "g16"]
+      },
+      {
+        culture: ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c11", "c13", "c14", "c16", "c17", "c19", "c20"],
+        general: ["g1", "g2", "g4", "g5", "g8", "g10", "g13", "g14", "g15", "g16"]
+      },
+      {
+        culture: ["c2", "c3", "c5", "c6", "c7", "c8", "c9", "c10", "c12", "c13", "c14", "c15", "c17", "c18", "c19"],
+        general: ["g2", "g3", "g5", "g6", "g7", "g9", "g11", "g12", "g14", "g16"]
+      }
+    ];
+
+    // ==========================================
+    // SEEDED RANDOM GENERATOR (LCG)
+    // ==========================================
+    function SeededRandom(seed) {
+      this.seed = seed;
+      this.next = function() {
+        this.seed = (this.seed * 1664525 + 1013904223) % 4294967296;
+        return this.seed / 4294967296;
+      };
+    }
+
+    // Hash function to turn a date string into a numerical seed
+    function getHash(str) {
+      let hash = 0;
+      for (let i = 0; i < str.length; i++) {
+        hash = (hash << 5) - hash + str.charCodeAt(i);
+        hash |= 0;
+      }
+      return Math.abs(hash);
+    }
+
+    function shuffleArray(array, rnd) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(rnd.next() * (i + 1));
+        const temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+      }
+    }
+
+    // ==========================================
+    // STATE MANAGEMENT
+    // ==========================================
+    let currentUser = "";
+    let todayQuiz = [];
+    let currentQuestionIndex = 0;
+    let userAnswers = []; // Array of string values representing choices
+    let score = 0;
+    
+    // Timer states
+    let timerInterval = null;
+    const TIME_LIMIT = 35; // 35 seconds
+    let timeLeft = TIME_LIMIT;
+
+    // ==========================================
+    // INITIALIZATION & CORE LOGIC
+    // ==========================================
+    window.addEventListener("DOMContentLoaded", () => {
+      initTheme();
+      
+      // Event listeners
+      document.getElementById("start-btn").addEventListener("click", startQuiz);
+      document.getElementById("theme-btn").addEventListener("click", toggleTheme);
+      document.getElementById("home-btn").addEventListener("click", goHome);
+      document.getElementById("retry-btn").addEventListener("click", retryQuiz);
+
+      // Support enter key on username input
+      document.getElementById("username").addEventListener("keypress", (e) => {
+        if (e.key === "Enter") startQuiz();
+      });
+    });
+
+    // Generate daily quiz
+    function generateDailyQuiz() {
+      // 1. Get seed from YYYY-MM-DD
+      const todayStr = new Date().toLocaleDateString('en-CA'); // e.g. "2026-07-07"
+      const seed = getHash(todayStr);
+      const rnd = new SeededRandom(seed);
+
+      // 2. Select predefined set index (0 to 4)
+      const setIdx = seed % 5;
+      const currentSet = questionSets[setIdx];
+
+      // 3. Extract question objects from pool according to the set definition
+      const selectedCulture = currentSet.culture.map(qId => {
+        return questionsPool.culture.find(q => q.id === qId);
+      });
+      const selectedGeneral = currentSet.general.map(qId => {
+        return questionsPool.general.find(q => q.id === qId);
+      });
+
+      // 4. Combine and shuffle the combined set using LCG seeded random
+      const combinedQuiz = [...selectedCulture, ...selectedGeneral];
+      shuffleArray(combinedQuiz, rnd);
+
+      // 5. Shuffle options for each question
+      combinedQuiz.forEach(q => {
+        const optionsCopy = [...q.options];
+        shuffleArray(optionsCopy, rnd);
+        q.shuffledOptions = optionsCopy;
+      });
+
+      return combinedQuiz;
+    }
+
+    function startQuiz() {
+      const nameInput = document.getElementById("username").value.trim();
+      if (!nameInput) {
+        alert("Vui lòng nhập tên của bạn trước khi bắt đầu bài trắc nghiệm.");
+        return;
+      }
+      currentUser = nameInput;
+      
+      // Initialize Quiz Set
+      todayQuiz = generateDailyQuiz();
+      currentQuestionIndex = 0;
+      userAnswers = [];
+      score = 0;
+
+      // Update UI displays
+      document.getElementById("quiz-user-display").textContent = `Nhân sự: ${currentUser}`;
+      
+      // Switch screen
+      switchScreen("quiz-screen");
+      showQuestion();
+    }
+
+    function showQuestion() {
+      // Reset timer
+      clearInterval(timerInterval);
+      timeLeft = TIME_LIMIT;
+      updateTimerUI();
+      
+      const q = todayQuiz[currentQuestionIndex];
+
+      // Update header info
+      document.getElementById("quiz-counter-display").textContent = `Câu hỏi ${currentQuestionIndex + 1} / 25`;
+      
+      // Update progress bar
+      const progressPercent = ((currentQuestionIndex) / 25) * 100;
+      document.getElementById("progress-bar").style.width = `${progressPercent}%`;
+
+      // Update question text and type badge
+      const qBadge = document.getElementById("q-badge");
+      const isCulture = q.id.startsWith("c");
+      if (isCulture) {
+        qBadge.textContent = "VĂN HÓA & ỨNG XỬ";
+        qBadge.className = "question-type-badge badge-culture";
+      } else {
+        qBadge.textContent = "TỔNG QUAN & CÔNG VIỆC";
+        qBadge.className = "question-type-badge badge-general";
+      }
+      
+      document.getElementById("q-text").textContent = q.question;
+
+      // Render Options
+      const optionsContainer = document.getElementById("options-container");
+      optionsContainer.innerHTML = "";
+
+      const alphabet = ["A", "B", "C", "D"];
+      q.shuffledOptions.forEach((opt, idx) => {
+        const btn = document.createElement("button");
+        btn.className = "option-btn";
+        btn.dataset.optionText = opt;
+        btn.innerHTML = `
+          <div class="option-indicator">${alphabet[idx]}</div>
+          <div style="flex-grow: 1;">${opt}</div>
+        `;
+        
+        btn.addEventListener("click", () => selectOption(btn, opt));
+        optionsContainer.appendChild(btn);
+      });
+
+      // Start Countdown Timer
+      startTimer();
+    }
+
+    function selectOption(selectedBtn, selectedText) {
+      // Disable all other options once answered
+      clearInterval(timerInterval);
+      const options = document.querySelectorAll(".option-btn");
+      options.forEach(btn => btn.disabled = true);
+
+      // Save answer
+      userAnswers.push(selectedText);
+      const q = todayQuiz[currentQuestionIndex];
+      const isCorrect = (selectedText === q.correct);
+
+      if (isCorrect) {
+        score++;
+        selectedBtn.classList.add("correct");
+      } else {
+        selectedBtn.classList.add("incorrect");
+        // Highlight correct answer
+        options.forEach(btn => {
+          if (btn.dataset.optionText === q.correct) {
+            btn.classList.add("correct");
+          }
+        });
+      }
+
+      // Automatically transition to next question after a 1.2s delay for visual feedback
+      setTimeout(nextQuestion, 1200);
+    }
+
+    function nextQuestion() {
+      currentQuestionIndex++;
+      if (currentQuestionIndex < 25) {
+        showQuestion();
+      } else {
+        finishQuiz();
+      }
+    }
+
+    // Timer Logic
+    function startTimer() {
+      const timerBar = document.getElementById("timer-bar");
+      timerBar.style.width = "100%";
+      timerBar.className = "timer-bar"; // Reset pulsing & colors
+
+      timerInterval = setInterval(() => {
+        timeLeft--;
+        updateTimerUI();
+
+        if (timeLeft <= 0) {
+          clearInterval(timerInterval);
+          handleTimeOut();
+        }
+      }, 1000);
+    }
+
+    function updateTimerUI() {
+      const timerBar = document.getElementById("timer-bar");
+      const percent = (timeLeft / TIME_LIMIT) * 100;
+      timerBar.style.width = `${percent}%`;
+
+      if (timeLeft <= 10) {
+        timerBar.style.backgroundColor = "var(--incorrect)";
+        timerBar.classList.add("timer-pulsing");
+      } else if (timeLeft <= 20) {
+        timerBar.style.backgroundColor = "var(--secondary)";
+        timerBar.classList.remove("timer-pulsing");
+      } else {
+        timerBar.style.backgroundColor = "var(--correct)";
+        timerBar.classList.remove("timer-pulsing");
+      }
+    }
+
+    function handleTimeOut() {
+      // Save empty answer
+      userAnswers.push("");
+      
+      // Highlight correct answer
+      const q = todayQuiz[currentQuestionIndex];
+      const options = document.querySelectorAll(".option-btn");
+      options.forEach(btn => {
+        btn.disabled = true;
+        if (btn.dataset.optionText === q.correct) {
+          btn.classList.add("correct");
+        } else {
+          btn.classList.add("incorrect");
+        }
+      });
+
+      // Jump to next after 1.5s delay
+      setTimeout(nextQuestion, 1500);
+    }
+
+    function finishQuiz() {
+      clearInterval(timerInterval);
+      document.getElementById("progress-bar").style.width = "100%";
+
+      // Display score
+      document.getElementById("score-val").textContent = score;
+
+      // Verdict styling and message
+      const verdict = document.getElementById("result-verdict");
+      const msg = document.getElementById("result-msg");
+      const homeBtn = document.getElementById("home-btn");
+      
+      let verdictText = "";
+      let msgText = "";
+
+      if (score === 25) {
+        verdictText = "Xuất sắc! (25/25)";
+        msgText = `Xin chúc mừng, <strong>${currentUser}</strong>! Bạn đã thấu hiểu trọn vẹn tinh thần và văn hóa của Nhà Của Thời Thanh Xuân. Hãy lan tỏa năng lượng tích cực này nhé!`;
+        homeBtn.disabled = false;
+        homeBtn.style.opacity = "1";
+        homeBtn.style.cursor = "pointer";
+        homeBtn.title = "";
+      } else if (score >= 20) {
+        verdictText = "ĐẠT YÊU CẦU";
+        msgText = `Tuyệt vời, <strong>${currentUser}</strong>! Bạn đạt <strong>${score}/25</strong> điểm (sai ${25 - score} câu). Bạn đã nắm vững kiến thức và đủ điều kiện đồng hành cùng Nhà.`;
+        homeBtn.disabled = false;
+        homeBtn.style.opacity = "1";
+        homeBtn.style.cursor = "pointer";
+        homeBtn.title = "";
+      } else {
+        verdictText = "CHƯA ĐẠT (BẮT BUỘC LÀM LẠI)";
+        msgText = `Kết quả của bạn là <strong>${score}/25</strong> điểm. Bạn đã trả lời sai/bỏ qua <strong>${25 - score}</strong> câu (vượt quá giới hạn 5 câu). <br><strong style="color: var(--incorrect);">Bạn bắt buộc phải làm lại bài trắc nghiệm này để đạt yêu cầu của Nhà.</strong>`;
+        homeBtn.disabled = true;
+        homeBtn.style.opacity = "0.5";
+        homeBtn.style.cursor = "not-allowed";
+        homeBtn.title = "Bạn chưa đạt yêu cầu, bắt buộc phải làm lại bài.";
+      }
+
+      verdict.textContent = verdictText;
+      msg.innerHTML = msgText;
+
+      // Render Review Panel
+      renderReview();
+
+      // Switch screen
+      switchScreen("result-screen");
+    }
+
+    function renderReview() {
+      const listContainer = document.getElementById("review-list");
+      listContainer.innerHTML = "";
+
+      todayQuiz.forEach((q, idx) => {
+        const userAns = userAnswers[idx];
+        const isCorrect = (userAns === q.correct);
+        const item = document.createElement("div");
+        item.className = `review-item ${isCorrect ? 'is-correct' : 'is-incorrect'}`;
+
+        const badgeText = q.id.startsWith("c") ? "Văn hóa & Ứng xử" : "Tổng quan & Công việc";
+        const badgeClass = q.id.startsWith("c") ? "badge-culture" : "badge-general";
+
+        let userAnsMarkup = "";
+        if (userAns === "") {
+          userAnsMarkup = `<span class="review-value ans-user-wrong">Không trả lời (Hết giờ)</span>`;
+        } else if (!isCorrect) {
+          userAnsMarkup = `<span class="review-value ans-user-wrong">${userAns}</span>`;
+        }
+
+        item.innerHTML = `
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+            <span class="question-type-badge ${badgeClass}">${badgeText}</span>
+            <span style="font-weight: 700; color: ${isCorrect ? 'var(--correct)' : 'var(--incorrect)'}">
+              ${isCorrect ? '✓ Đúng' : '✗ Sai'}
+            </span>
+          </div>
+          <div class="review-q-text">Câu ${idx + 1}: ${q.question}</div>
+          <div class="review-ans">
+            ${!isCorrect ? `
+              <div class="review-label">Đáp án của bạn:</div>
+              ${userAnsMarkup}
+            ` : ''}
+            <div class="review-label" style="margin-top: 4px;">Đáp án đúng:</div>
+            <div class="review-value ans-correct">${q.correct}</div>
+          </div>
+        `;
+
+        listContainer.appendChild(item);
+      });
+    }
+
+
+
+    // ==========================================
+    // THEME MANAGEMENT (Light / Dark)
+    // ==========================================
+    function initTheme() {
+      const savedTheme = localStorage.getItem("ncttx_theme") || "light";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+      updateThemeIcons(savedTheme);
+    }
+
+    function toggleTheme() {
+      const currentTheme = document.documentElement.getAttribute("data-theme");
+      const newTheme = (currentTheme === "dark") ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", newTheme);
+      localStorage.setItem("ncttx_theme", newTheme);
+      updateThemeIcons(newTheme);
+    }
+
+    function updateThemeIcons(theme) {
+      const sun = document.getElementById("sun-icon");
+      const moon = document.getElementById("moon-icon");
+      if (theme === "dark") {
+        sun.style.display = "block";
+        moon.style.display = "none";
+      } else {
+        sun.style.display = "none";
+        moon.style.display = "block";
+      }
+    }
+
+    // ==========================================
+    // NAVIGATION
+    // ==========================================
+    function switchScreen(screenId) {
+      const screens = document.querySelectorAll(".screen");
+      screens.forEach(s => s.classList.remove("active"));
+      
+      const target = document.getElementById(screenId);
+      target.classList.add("active");
+    }
+
+    function goHome() {
+      document.getElementById("username").value = "";
+      switchScreen("welcome-screen");
+    }
+
+    function retryQuiz() {
+      // Reset quiz with same username
+      startQuiz();
+    }
+  </script>
+
+</body>
+</html>
